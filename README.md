@@ -1,3 +1,3 @@
 # Meu Projetogit 
 # Este é meu primeiro projeto usando Git!
-**## stage chaged what?**
+## Irei a ponto do projeto, só estou escrevendo, e isso é facil, mas vou dar push agora.
