@@ -730,6 +730,60 @@ Arquivo: `simulacao/video/quem_vai_mais_longe.mp4`, gerado por `simulacao/video_
 
 ---
 
+## 2.11 Dá para mudar o destino? Empilhando as alavancas
+
+Script: `simulacao/melhor_destino.py`. Cada linha soma uma alavanca às anteriores.
+
+| Alavancas acumuladas | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil aos 28 | Idade no cargo top | Renda acumulada até 28 |
+|---|---|---|---|---|
+| 0. Hoje: escada integral, 65%, sem IA, relaxando depois da posse | 48% | 60% | 27,4 | R$ 549 mil |
+| 1. + **não relaxar depois da posse** (22h/semana) | 48% | 76% | 27,2 | R$ 599 mil |
+| 2. + **IA bem usada** no estudo | 51% | 83% | 26,9 | R$ 659 mil |
+| 3. + **método forte** (questões, revisão espaçada, simulados) | 52% | 85% | 26,8 | R$ 686 mil |
+| 4. + **disciplina subindo para 85%** | 58% | 90% | 26,5 | R$ 759 mil |
+| 5. + **diploma acelerado** (EaD privada com aproveitamento de disciplinas) | **67%** | 92% | **26,1** | **R$ 829 mil** |
+| 6. + virada para o superior mais cedo (24 meses antes do diploma) | 59% | **95%** | **25,6** | R$ 809 mil |
+
+**Sim, dá para mudar muito:** de 60% para 92–95% de chance de cargo top aos 28, de 48% para 67% de
+chance de estabilidade aos 25, e **R$ 280 mil a mais** até os 28. Nenhuma dessas alavancas depende
+de sorte, de dinheiro da família ou de networking. Todas dependem de você.
+
+### A alavanca que ainda não estava no plano: o diploma acelerado
+- Ela tira o **risco de jubilamento** e adianta o diploma de ~26 para ~25 anos. Com isso, os
+  concursos de nível superior se abrem **um ano antes**.
+- **Custo:** mensalidade de uma EaD privada reconhecida pelo MEC (em geral R$ 200 a R$ 500 por mês).
+  Para concurso, o diploma vale igual ao do CEDERJ.
+- **Próximo passo (grátis):** peça a 2 ou 3 faculdades EaD uma **análise de aproveitamento de
+  disciplinas** com o seu histórico do CEDERJ. Se elas aproveitarem bastante coisa e você se formar
+  até ~2029, vale a pena.
+  - Se aproveitarem pouco, fique no CEDERJ e passe em Estatística.
+  - Converse com a família, porque é ela quem banca.
+
+### O que estudar para fazer a diferença (além do edital)
+1. **Método de estudo (1 fim de semana para aprender, vale para a vida toda):** resolver questão em
+   vez de reler, revisão espaçada (Anki), simulado com tempo e caderno de erros. É a alavanca 3.
+2. **Transformar a sua fraqueza em arma: Estatística, matemática financeira e contabilidade.** Elas
+   pesam muito nos concursos que pagam mais (Bacen, Receita, TCU, auditorias), e a maioria dos
+   candidatos de humanas foge delas. Você **já precisa** de Estatística para o CEDERJ. Se ficar bom
+   nela, você sai na frente de metade da concorrência.
+3. **As matérias "coringa"**, que caem em quase tudo, do nível médio ao superior: Português, RLM,
+   Direito Constitucional e Administrativo, Licitações e AFO. Quanto mais você investe nelas, mais o
+   estudo do nível médio serve para o superior.
+4. **Redação e discursiva:** eliminam em quase todo concurso superior. Uma redação por semana,
+   corrigida, desde já.
+5. **Inglês:** cai no Bacen, na Receita e no TCU, abre a porta para o exterior e para o CACD.
+
+### O que NÃO muda o destino (e parece que muda)
+- Estudar 12h por dia por algumas semanas e depois cair: é o fogo de palha da seção 2.1.
+- Trocar de caminho toda vez que bate o desânimo.
+- Comprar mais cursos e materiais em vez de fazer mais questões.
+- Virar monge (seção 2.4).
+
+*Lembre: são probabilidades de um modelo, não garantias. 95% ainda não é 100%. Mas a diferença entre
+60% e 95% é toda sua.*
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
