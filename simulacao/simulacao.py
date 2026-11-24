@@ -53,13 +53,14 @@ def chance(tipo, horas):
     return teto / (1 + np.exp(-(horas - h50) / s))
 
 
-def simular(c, adesao=ADESAO_MEDIA, n=N):
+def simular(c, adesao=ADESAO_MEDIA, n=N, serie=False):
     """c: regras do cenário. adesao: fração do plano que você cumpre —
     um número (ex.: 0.85) ou uma função do mês t (para uma mudança gradual)."""
     ades_mes = adesao if callable(adesao) else (lambda t: adesao)
     ades_jan = ades_mes(0)
     # mais disciplina -> mais chance em Estatística 1 (teto 98%)
     p_estat = min(0.98, c["p_passar_estat"] + 0.5 * (ades_mes(6) - ADESAO_MEDIA))
+    S = np.zeros((n, MESES)) if serie else None   # salário mês a mês (para o vídeo)
     res = {k: np.zeros(n) for k in
            ("estavel8k_25", "top18k_28", "diplomata_28", "jubilado", "renda_acum",
             "idade_estavel", "diploma_idade", "fora_28", "idade_top", "morou_fora", "salario_28", "cargo_28", "primeiro")}
@@ -104,6 +105,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                 if t >= grad and salario >= 8000 and t_estavel is None:
                     t_estavel = t
                 renda += salario
+                if S is not None: S[i, t] = salario
                 continue
 
             # ---------- temporada fora ----------
@@ -115,6 +117,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                 if t == pausa[0]:
                     renda -= pausa[2]           # custo de ida (curso, visto, reserva)
                 # lá fora o trabalho/bolsa paga a vida, mas não sobra; sem concurso
+                if S is not None: S[i, t] = 0
                 continue
 
             # ---------- estudo do mês ----------
@@ -181,6 +184,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                 if t_estavel is None and salario >= 8000:
                     t_estavel = t
             renda += salario
+            if S is not None: S[i, t] = salario
 
         res["estavel8k_25"][i] = t_estavel is not None and t_estavel <= FIM_25
         res["top18k_28"][i] = salario >= 18000 or (cargo in ("sup_top", "cacd"))
@@ -196,6 +200,8 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
         res["diploma_idade"][i] = 22.9 + grad / 12
         res["fora_28"][i] = (c["trilha"] == "mercado" and
                              rng.random() < (0.10 if mercado_trainee else 0.02))
+    if S is not None:
+        res["serie"] = S
     return res
 
 

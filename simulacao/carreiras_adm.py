@@ -75,8 +75,9 @@ SINERGIA_VENDAS = {"Vendas B2B/SaaS (SDR -> executivo de contas)", "Assessor de 
 SINERGIA_RI = {"RI: ONGs / organismos internacionais / consulados", "Comércio exterior / logística internacional"}
 
 
-def mercado(p, ades, pos=POS["Nenhuma"], nome="", n=N_C):
+def mercado(p, ades, pos=POS["Nenhuma"], nome="", n=N_C, serie=False, horizonte=FIM_28):
     ok25, ok28, sal28, fora = np.zeros(n), np.zeros(n), np.zeros(n), np.zeros(n)
+    S = np.zeros((n, horizonte + 1)) if serie else None
     gm = 1 + (ades - 0.65)                       # disciplina acelera aprendizado e promoções
     ent = pos["ent"]
     if pos is POS["Curso + prática forte de VENDAS (~100h)"] and nome not in SINERGIA_VENDAS:
@@ -88,7 +89,7 @@ def mercado(p, ades, pos=POS["Nenhuma"], nome="", n=N_C):
         pronto = int(p["prep_h"] / (20 * ades * 4.3))       # ~20h/sem de preparo na área
         inicio = max(pronto, grad if p["diploma"] else 0)
         entrou, sal, t_ent = False, 1800, None
-        for t in range(FIM_28 + 1):
+        for t in range(horizonte + 1):
             if not entrou:
                 if t >= grad:
                     sal = 3000                               # emprego genérico depois do diploma
@@ -104,7 +105,11 @@ def mercado(p, ades, pos=POS["Nenhuma"], nome="", n=N_C):
                                                                  p["gsd"])))
             if sal >= 8000 and t <= FIM_25:
                 ok25[i] = 1
+            if S is not None:
+                S[i, t] = sal
         ok28[i], sal28[i] = sal >= 18000, sal
+    if serie:
+        return S
     return ok25.mean(), ok28.mean(), np.median(sal28), np.percentile(sal28, 90), fora.mean()
 
 

@@ -706,6 +706,30 @@ o salário do concurso já estiver pagando as contas.
 
 ---
 
+## 2.10 Vídeo: quem vai mais longe? (22 → 31 anos)
+
+Arquivo: `simulacao/video/quem_vai_mais_longe.mp4`, gerado por `simulacao/video_corrida.py`.
+É uma corrida de barras com o dinheiro acumulado (mediana) de 8 caminhos, mês a mês, cumprindo 65% do plano.
+
+| Aos 31 anos | Renda acumulada | Com cargo/renda de ≥ R$ 18 mil |
+|---|---|---|
+| **Escada + IA no estudo (22h/semana depois da posse)** | **R$ 1,38 milhão** | 97% |
+| Direto no nível superior + IA | R$ 1,25 milhão | **99%** |
+| Escada sem IA, relaxando depois da posse | R$ 1,20 milhão | 92% |
+| Plano antigo (estágio + 25h) | R$ 1,16 milhão | 91% |
+| Dados/BI | R$ 689 mil | 22% |
+| Vendas B2B/SaaS | R$ 668 mil | 31% |
+| Negócio com IA no lugar do concurso | R$ 147 mil | 11% |
+| CACD direto | R$ 141 mil | 53% |
+
+**Como a corrida acontece:**
+- **Até ~24 anos,** o mercado (vendas e dados) lidera, porque começa a ganhar logo.
+- **A partir de ~25,** a escada passa à frente com o salário do nível médio.
+- **Depois do diploma (26),** o direto dispara, mas não alcança a escada em dinheiro acumulado.
+- **O CACD** passa anos com R$ 0 e só começa a subir no fim.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
