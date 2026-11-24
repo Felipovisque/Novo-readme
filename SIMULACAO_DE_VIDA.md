@@ -859,6 +859,39 @@ Fontes: [Grancursos: FGV é a banca do Bacen](https://blog.grancursosonline.com.
 
 ---
 
+## 2.13 E se eu passar logo num nível médio de R$ 8 mil+?
+
+Script: `simulacao/passar_cedo.py`. Separei as vidas simuladas (escada + IA + 22h por semana depois
+da posse) pelo **momento em que você fica estável** com ≥ R$ 8 mil.
+
+| Quando você passa | Cumprindo 65%: % das vidas | Cargo de ≥ R$ 18 mil aos 28 | Renda acumulada até 28 | Cumprindo 85%: % das vidas | Cargo de ≥ R$ 18 mil aos 28 | Renda acumulada até 28 |
+|---|---|---|---|---|---|---|
+| **Até o fim de 2027 (~23 anos)** | 17% | 83% | **R$ 819 mil** | **24%** | 89% | **R$ 879 mil** |
+| Em 2028 (~24 anos) | 24% | 84% | R$ 729 mil | 22% | 89% | R$ 789 mil |
+| Em 2029 (~25 anos) | 11% | 91% | R$ 749 mil | 13% | 95% | R$ 834 mil |
+| Depois, já pelo superior | 37% | 99% | R$ 594 mil | 35% | 100% | R$ 644 mil |
+| Não fica estável até os 28 | 11% | — | — | 6% | — | — |
+
+**Sim, passar cedo seria ótimo:**
+- É a vida com **mais dinheiro acumulado** (R$ 820–880 mil até os 28).
+- Você continua com **83–89% de chance de chegar aos R$ 18 mil+**, desde que mantenha as 22h por semana depois da posse.
+- Tem independência, pode sair de casa, namorar e viajar desde os 23–24.
+- **Chance de isso acontecer até o fim de 2027:** 17% cumprindo 65%, e **24% cumprindo 85%**. Não é sorte: vem do estudo integral a partir de maio, com IA e método. Isso leva você a ~1.000–1.400h efetivas até o fim de 2027.
+
+**Como aumentar a chance de pegar um nível médio de R$ 8 mil+ em 2027–2028:**
+1. **Jogue a rede larga: 4 a 6 provas por ano.** Como cada prova tem poucas vagas, quem passa cedo é quem presta muitas.
+2. **Onde procurar:** tribunais de contas, assembleias legislativas, câmaras municipais grandes,
+   ministérios públicos estaduais (técnico), o Bacen Técnico (se continuar nível médio) e estatais. Banco do Brasil e Caixa (~R$ 4–5 mil + benefícios) servem de rede de segurança.
+   - Acompanhe toda semana os editais no PCI Concursos, no Qconcursos e no Direção Concursos.
+3. **Priorize as bancas que você já treinou** (FCC e FGV) e as matérias "coringa" (Português, RLM,
+   Constitucional, Administrativo, Licitações), que se repetem em quase todos.
+4. **Decida antes se topa se mudar de cidade.** Um cargo de R$ 8–12 mil em outra capital é ótimo,
+   mas pesa na igreja, no namoro e na família. Se topar, você dobra o número de provas possíveis.
+5. **Depois de passar, não relaxe:** são 22h por semana rumo ao superior. É isso que transforma um
+   "8 mil aos 23" em "20 mil aos 26–27".
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
