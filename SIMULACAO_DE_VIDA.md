@@ -610,6 +610,43 @@ principal.
 
 ---
 
+## 2.8 Por que o "direto no superior" ganha aos 28, se a escada me dá salário antes?
+
+Script: `simulacao/escada_vs_direto.py` (cumprindo 65%, integral com apoio da família, simulação
+estendida até os 31).
+
+| Caminho | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil aos 28 | Cargo de ≥ R$ 18 mil aos 31 | Renda acumulada até 28 | Renda acumulada até 31 |
+|---|---|---|---|---|---|
+| Escada, estudando 16h/semana depois da posse no médio | **48%** | 60% | 93% | R$ 549 mil | R$ 1,20 milhão |
+| **Escada, estudando 22h/semana depois da posse no médio** | **48%** | **76%** | **97%** | **R$ 599 mil** | **R$ 1,29 milhão** |
+| Direto no superior | 13% | **89%** | 99% | R$ 489 mil | R$ 1,21 milhão |
+
+**A explicação são as horas de estudo, não o caminho em si:**
+1. **A prova de nível superior exige umas 2.800 horas efetivas** de conteúdo específico (estimativa do modelo).
+2. **Ninguém toma posse no superior antes do diploma** (~jan/2030, aos 26). Isso é uma "porta" que
+   abre na mesma data para os dois caminhos.
+3. **No direto,** de 2027 a 2029 você estuda 35h por semana só para o superior. Cumprindo 65%, são
+   ~100h por mês, e você chega às ~2.800h **bem na hora em que a porta abre**.
+4. **Na escada,** essas horas vão para o nível médio, e só uns 65% do conteúdo servem para o superior.
+   Depois da posse no médio você trabalha 6 a 8h por dia e estuda bem menos, então as horas de superior
+   crescem pela metade da velocidade. Muita gente da escada só chega às 2.800h **entre os 28 e os 30**.
+5. Ou seja: **aos 28 o direto está na frente porque chegou antes, não porque é melhor.** Aos 31,
+   os dois estão em 93–99%, e a escada **ganhou mais dinheiro** (R$ 1,29 milhão contra R$ 1,21 milhão,
+   estudando 22h por semana depois da posse).
+
+**O que o modelo não mede e pesa contra o direto:**
+- **Quatro anos sem renda e sem nenhuma vitória.** Muita gente desiste no meio do caminho, e o modelo
+  não simula desistência.
+- **Dependência da família até os 26–27,** com toda a pressão que isso traz.
+- **Menos dinheiro e menos liberdade** para namorar, viajar e sair de casa.
+
+**A lição prática:** o ponto fraco da escada é **relaxar depois de passar no nível médio**. Se você
+mantiver **22h por semana de estudo depois da posse** (umas 3h por dia útil mais um bloco no sábado), a
+escada vai para **76% aos 28 e 97% aos 31**, com salário desde os 24–25, independência e a maior renda.
+**A recomendação continua sendo a escada, com a regra de não relaxar depois da posse.**
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
