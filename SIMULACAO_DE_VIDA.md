@@ -647,6 +647,65 @@ escada vai para **76% aos 28 e 97% aos 31**, com salário desde os 24–25, inde
 
 ---
 
+## 2.9 E a IA? Usar para estudar e usar para ganhar dinheiro
+
+Script: `simulacao/ia.py`. São duas coisas **bem diferentes**:
+
+### 1) IA para ESTUDAR: muda a *qualidade* da hora
+
+| Uso da IA (escada integral) | Estável com ≥ R$ 8 mil até 25 (65% → 85%) | Cargo de ≥ R$ 18 mil aos 28 (65% → 85%) |
+|---|---|---|
+| Sem IA | 48% → 51% | 60% → 78% |
+| **IA usada errado** (lê resumo no lugar de fazer questão) | 46% → 50% | **53%** → 71% |
+| **IA bem usada** (tutor, questões, correção de redação) | 51% → 56% | **73%** → 84% |
+| IA muito bem usada + método (revisão espaçada, simulados) | 52% → 57% | **78%** → 86% |
+
+*Premissa: IA bem usada rende ~20–30% mais por hora; usada errado, ~10% menos.*
+
+**É o maior ganho barato da simulação inteira:** de 60% para 73–78%, sem estudar nem uma hora a mais.
+Mas **usar errado faz piorar.** Ler o resumo da IA dá a sensação de ter estudado, sem o aprendizado.
+
+**Como eu (Claude) posso te ajudar no estudo, na prática:**
+- **Corrigir as suas redações** com a grade da FCC (estrutura, coesão, argumentação, gramática) e dar nota.
+- **Explicar Estatística 1 passo a passo,** no seu ritmo, com exercícios e correção.
+- **Criar questões no estilo FCC** sobre o que você acabou de estudar e corrigir os seus erros.
+- **Montar flashcards** (para usar no Anki) a partir do seu caderno de erros.
+- **Fazer o replanejamento de domingo** com você: horas reais, o que atrasou, prioridades da semana.
+- **Conversar em inglês** com você, corrigindo os erros.
+- ⚠️ **Lei seca e números de artigo: sempre confira no texto oficial.** A IA pode errar o detalhe, e a
+  FCC cobra justamente o detalhe.
+
+**Regra de ouro:** a IA **gera e corrige**; quem **faz as questões** é você. Nunca troque questões
+por resumo.
+
+### 2) IA para GANHAR DINHEIRO (produtos digitais, vendas, vídeos)
+
+| Opção | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil aos 28 | Renda do negócio aos 28 |
+|---|---|---|---|
+| Escada + IA no estudo, **sem negócio** | **50%** | **73%** | — |
+| Escada + negócio com IA **5h/semana desde já** | 48% | **50%** | mediana de **R$ 250/mês**; só 15% passam de R$ 1,5 mil |
+| Negócio com IA **no lugar** do concurso (35h/semana) | — | — | mediana de R$ 1,5 mil/mês; **13%** passam de R$ 8 mil, **5%** de R$ 18 mil |
+
+*Premissas: a IA deixa produzir barato e rápido, mas também deixa **todo mundo** produzir. A
+concorrência explode, e quem ganha dinheiro é quem já tem público, nicho ou sabe vender.*
+
+**O que isso quer dizer:**
+- **Agora, um negócio com IA "do lado" é a pior troca da simulação:** custa 23 pontos de cargo top
+  (de 73% para 50%) para render, na mediana, uns R$ 250 por mês. O problema não é a IA, é o tempo
+  que sai do estudo.
+- **No lugar do concurso,** é uma loteria parecida com empreender: chance pequena de dar muito certo
+  e chance grande de ficar no "dinheiro de bolso".
+- **A hora certa é depois da posse** (melhor ainda depois do cargo final), juntando três coisas:
+  IA + **vendas** (seção 2.7) + **a sua história**. Exemplos que fariam sentido para você:
+  - material ou mentoria para concurseiros ("como passei estudando de forma imperfeita");
+  - conteúdo de surf ou de viagem;
+  - parceria com o seu amigo do canal dark, que já sabe a parte técnica de vídeo.
+
+**Resumo:** **use IA para estudar a partir de hoje.** Deixe a IA para ganhar dinheiro para quando
+o salário do concurso já estiver pagando as contas.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).

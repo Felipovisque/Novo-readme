@@ -84,7 +84,8 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
             grad += pausa[1]
 
         # horas até o TCE-GO: ~260h planejadas (com recesso) x sua adesão
-        h = {"medio": 260 * ades_jan if "horas_iniciais" in c else 0.0,
+        ef = c.get("eficiencia", 1.0)       # qualidade da hora de estudo (ex.: IA como tutor)
+        h = {"medio": 260 * ades_jan * ef if "horas_iniciais" in c else 0.0,
              "sup": 0.0, "cacd": 0.0}
         t_top = None
         primeiro = 0
@@ -140,7 +141,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                 salario = SALARIO_ESTAGIO
             if not cargo:
                 planejado += c.get("h_extra_sem_cargo", 0)
-            efetivo = planejado * ades * SEMANAS_MES
+            efetivo = planejado * ades * SEMANAS_MES * ef
 
             foco = c["foco"](cargo, t, grad)
             h[foco] += efetivo
