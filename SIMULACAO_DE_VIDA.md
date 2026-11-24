@@ -449,6 +449,65 @@ R$ 18 mil antes dos 28, mas isso é raro para quem sai de EaD sem contatos.)*
 
 ---
 
+## 2.6 O SEU caso real (dados de 24/11/2026)
+
+Script: `simulacao/meu_caso.py`. O que muda com as suas informações:
+
+| Fato | O que muda |
+|---|---|
+| **Sem cidadania europeia** (o bisavô italiano é do seu pai, ou seja, seu trisavô; a lei italiana de 2025 só aceita pai, mãe, avô ou avó nascidos na Itália) | "Emigrar de vez" fica descartado. Morar fora passa pelo concurso, por bolsa de mestrado ou por Working Holiday |
+| **Parentes nos EUA** | Só pai, mãe, irmão, cônjuge ou filho cidadão americano podem pedir o seu visto, e no caso de irmão a fila leva mais de 15 anos. Não entra no plano |
+| **A família banca o integral se você estudar de verdade, e o CEDERJ é gratuito** | O **tempo integral vira uma opção real** |
+| **Disciplinas repetidas em 2027.1** | No integral sobra tempo para a faculdade, então a chance de jubilamento cai de 12% para 7% |
+| **R$ 1 mil guardados** | Dá para a viagem a Goiânia. O intercâmbio curto (~R$ 25 mil) fica para depois do primeiro cargo |
+| **Inglês intermediário, sem certificado** | No integral você perde o inglês no carro e precisa pôr 30 min por dia na rotina |
+| **PS5 + GTA 6** | Veja abaixo |
+
+### Simulação com integral a partir de mai/2027 (depois de completar 1 ano de estágio)
+
+| Caminho | Cumprindo | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil até 28 | Idade no cargo top | Jubilamento |
+|---|---|---|---|---|---|
+| Estágio + 25h (plano antigo) | 65% | 43% | 55% | 27,6 | 12% |
+| **I1) Integral, escada híbrida** (vira para o superior 12 meses antes do diploma) | 65% | **47%** | 61% | 27,5 | 7% |
+| I1) Integral, escada híbrida | 85% | **52%** | 78% | 27,1 | 2% |
+| I2) Integral, escada com virada antecipada (24 meses antes do diploma) | 65% | 42% | 65% | 27,2 | 7% |
+| I2) Integral, escada com virada antecipada | 85% | 50% | 79% | 27,0 | 2% |
+| I3) Integral, direto no superior | 65% | 13% | **88%** | **26,6** | 7% |
+| I3) Integral, direto no superior | 85% | 19% | **90%** | **26,3** | 2% |
+
+### Minha recomendação para o seu caso
+1. **Até 17/01:** plano do TCE-GO como está, usando o recesso de janeiro como **teste do integral**.
+2. **De fev a mai/2027:** termine 1 ano de estágio, faça as disciplinas repetidas e Estatística com
+   tudo, e faça as primeiras provas de nível médio.
+3. **A partir de mai/2027:** **integral na escada híbrida (I1)**. É o melhor equilíbrio entre ter
+   alguma coisa aos 25 (47–52%) e chegar ao cargo top aos 28 (61–78%).
+4. **Gatilho de virada:** se em **dez/2027** você ainda não tiver passado no nível médio **e** estiver
+   cumprindo 75% ou mais, antecipe a virada para o superior (I2).
+5. **Se o que você mais quer é o salário top o quanto antes** e a família topa bancar até uns 26–27,
+   o I3 (direto no superior) é o mais rápido: posse por volta dos 26,5 anos, com 88–90% de chance até os 28.
+
+### GTA 6: quanto ele custa?
+- **Jogar muito só nos primeiros meses** (cumprir 55% em vez de 65% de dez a mar) quase não muda os 6
+  anos: 61% → 60%. No TCE-GO, a chance já é de ~1% de qualquer jeito.
+- **O perigo é virar hábito.** Se o "55%" ficar para sempre, o integral despenca para uns 48% de cargo
+  top, **pior que o estágio**. O jogo em si não é o problema; o problema é quando ele toma o horário
+  de estudo.
+- **Regra:** **GTA como recompensa:** sexta à noite e sábado à tarde, depois do buffer. Nada de jogar
+  em dia de semana antes do Bloco B. Se furar a regra 2 semanas seguidas, o PS5 vai para a casa de um
+  amigo até 17/01.
+
+### Dinheiro e inglês, na prática
+- **Goiânia:** passagem Rio–Goiânia ida e volta mais 1–2 noites de hotel devem ficar entre ~R$ 800 e
+  R$ 1.700. **Compre esta semana**, com os R$ 1 mil mais a próxima bolsa do estágio. Se faltar, peça
+  ajuda à família, porque é investimento.
+- **Até maio:** guarde pelo menos R$ 300 por mês da bolsa. Essa é a sua reserva para inscrições de
+  concurso (R$ 100–200 cada) e viagens de prova.
+- **Inglês:** faça agora o **EF SET** (teste online gratuito) para saber o seu nível real. No integral,
+  são **30 min de inglês por dia** (no almoço ou indo para a academia) e certificado oficial (IELTS ou
+  TOEFL) só quando for pedir bolsa.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
