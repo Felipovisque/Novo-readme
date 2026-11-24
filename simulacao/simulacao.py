@@ -38,7 +38,12 @@ PROVAS = {
     "medio_banco": (1.2,  500, 150, 0.45,  5000),  # BB, Caixa, estatais nível médio
     "sup_top":    (5.0, 2800, 600, 0.14, 20000),  # auditor/analista controle, fiscal, Bacen
     "cacd":       (1.0, 5000, 900, 0.20, 22000),  # diplomata (inglês+francês do zero pesam)
+    # nível superior, outros tipos
+    "estatal_sup": (2.0, 2000, 500, 0.12, 12000),  # analista Petrobras, BB/Caixa/BNDES nível sup.
+    "adm_federal": (3.0,  900, 250, 0.20,  6000),  # Administrador em universidade/órgão federal
+    "ofchan":     (0.3, 2300, 500, 0.18,  9500),   # Oficial de Chancelaria (Itamaraty), concurso irregular
 }
+CODIGO = {"medio_top": 1, "medio_banco": 2, "sup_top": 3, "cacd": 4, "estatal_sup": 5, "adm_federal": 6, "ofchan": 7}
 SALARIO_ESTAGIO = 1800
 SALARIO_POS_FORMADO = 3000    # sem cargo e já formado: acabou o estágio, emprego comum
 H_SEM_POS_FORMADO = 18        # ...e sobra menos tempo para estudar
@@ -57,7 +62,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
     p_estat = min(0.98, c["p_passar_estat"] + 0.5 * (ades_mes(6) - ADESAO_MEDIA))
     res = {k: np.zeros(n) for k in
            ("estavel8k_25", "top18k_28", "diplomata_28", "jubilado", "renda_acum",
-            "idade_estavel", "diploma_idade", "fora_28", "idade_top", "morou_fora")}
+            "idade_estavel", "diploma_idade", "fora_28", "idade_top", "morou_fora", "salario_28", "cargo_28", "primeiro")}
     for i in range(n):
         # --- diploma ---
         jubilado = False
@@ -82,6 +87,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
         h = {"medio": 260 * ades_jan if "horas_iniciais" in c else 0.0,
              "sup": 0.0, "cacd": 0.0}
         t_top = None
+        primeiro = 0
         cargo, salario, renda = None, SALARIO_ESTAGIO, 0.0
         t_estavel = None
         mercado_trainee = False
@@ -153,16 +159,17 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                     if n:
                         tipos.append((tipo, n))
             for tipo, n in tipos:
-                exige_diploma = tipo in ("sup_top", "cacd")
+                exige_diploma = not tipo.startswith("medio")
                 if exige_diploma and grad > t + 9:
                     continue                    # não teria diploma na posse
-                horas = {"medio_top": h["medio"], "medio_banco": h["medio"],
-                         "sup_top": h["sup"], "cacd": h["cacd"]}[tipo]
+                horas = h["medio"] if tipo.startswith("medio") else \
+                    h["cacd"] if tipo == "cacd" else h["sup"]
                 for _ in range(n):
                     if rng.random() < chance(tipo, horas):
                         novo = PROVAS[tipo][4]
                         if novo > (salario if cargo else 0):
                             cargo, posse = tipo, t + (3 if tipo != "cacd" else 6)
+                            primeiro = primeiro or CODIGO[tipo]
                             salario_futuro = novo
                             if tipo in ("sup_top", "cacd") and t_top is None:
                                 t_top = t
@@ -179,6 +186,9 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
         res["diplomata_28"][i] = cargo == "cacd"
         res["idade_top"][i] = 22.9 + t_top / 12 if t_top is not None else np.nan
         res["morou_fora"][i] = bool(pausa) and pausa[0] <= FIM_28
+        res["salario_28"][i] = salario
+        res["cargo_28"][i] = CODIGO.get(cargo, 0)
+        res["primeiro"][i] = primeiro
         res["jubilado"][i] = jubilado
         res["renda_acum"][i] = renda
         res["idade_estavel"][i] = 22.9 + t_estavel / 12 if t_estavel is not None else np.nan

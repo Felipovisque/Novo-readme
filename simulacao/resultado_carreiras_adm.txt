@@ -1,0 +1,60 @@
+
+=== TODOS OS CAMINHOS (cumprindo 65%) ===
+Caminho                                                          ≥8k até 25 ≥18k aos 28 salário 28 (med.) top 10% aos 28 fora até 28
+   [Concurso: estatais nível sup. (Petrobras, BB, Caixa, BNDES): passou no concurso-alvo até 28 = 56%]
+   [Concurso: Administrador federal (univ./órgãos) + sobe depois: passou no concurso-alvo até 28 = 88%]
+   [Concurso: Oficial de Chancelaria (Itamaraty): passou no concurso-alvo até 28 = 17%]
+   [Concurso: CACD (diplomata): passou no concurso-alvo até 28 = 26%]
+Concurso: escada médio -> superior (integral)                           48%         55%            20,000         20,000          0%
+Concurso: direto no superior top (integral)                             13%         86%            20,000         20,000          0%
+Concurso: Administrador federal (univ./órgãos) + sobe depois             3%         58%            20,000         20,000          0%
+Concurso: estatais nível sup. (Petrobras, BB, Caixa, BNDES)              8%         33%            12,000         20,000          0%
+Vendas B2B/SaaS (SDR -> executivo de contas)                            13%         12%             7,098         19,452         17%
+Concurso: CACD (diplomata)                                               1%         20%                 0         22,000          0%
+Assessor de investimentos (vendas + finanças)                            8%          8%             3,000         15,171          3%
+Concurso: Oficial de Chancelaria (Itamaraty)                             3%         10%                 0         10,000          6%
+Dados/BI (Excel, SQL, Power BI)                                          3%          1%             7,851         12,788         15%
+Marketing digital / tráfego / growth                                     1%          0%             4,107         10,256          8%
+Banco privado: gerente comercial/PJ                                      1%          0%             6,307         10,072          2%
+Mercado financeiro (banco de investimento, gestora)                      0%          1%             3,000          7,289          1%
+Trainee de multinacional                                                 1%          0%             3,000          9,689          3%
+Comércio exterior / logística internacional                              0%          0%             5,421          7,754         10%
+RH / gestão de pessoas                                                   0%          0%             4,761          6,418          2%
+Gestão de projetos / PMO                                                 0%          0%             5,282          7,162          5%
+RI: ONGs / organismos internacionais / consulados                        0%          0%             3,000          4,933         10%
+Academia: mestrado -> doutorado (bolsa CAPES)                            0%          0%             2,522          3,000         21%
+
+=== TODOS OS CAMINHOS (cumprindo 85%) ===
+Caminho                                                          ≥8k até 25 ≥18k aos 28 salário 28 (med.) top 10% aos 28 fora até 28
+   [Concurso: estatais nível sup. (Petrobras, BB, Caixa, BNDES): passou no concurso-alvo até 28 = 57%]
+   [Concurso: Administrador federal (univ./órgãos) + sobe depois: passou no concurso-alvo até 28 = 87%]
+   [Concurso: Oficial de Chancelaria (Itamaraty): passou no concurso-alvo até 28 = 17%]
+   [Concurso: CACD (diplomata): passou no concurso-alvo até 28 = 38%]
+Concurso: escada médio -> superior (integral)                           52%         72%            20,000         20,000          0%
+Concurso: direto no superior top (integral)                             19%         89%            20,000         20,000          0%
+Concurso: Administrador federal (univ./órgãos) + sobe depois             4%         62%            20,000         20,000          0%
+Concurso: estatais nível sup. (Petrobras, BB, Caixa, BNDES)             10%         36%            12,000         20,000          0%
+Vendas B2B/SaaS (SDR -> executivo de contas)                            19%         20%             8,925         24,116         19%
+Concurso: CACD (diplomata)                                               2%         31%                 0         22,000          0%
+Assessor de investimentos (vendas + finanças)                            9%         11%             3,000         19,049          3%
+Concurso: Oficial de Chancelaria (Itamaraty)                             3%         10%                 0         20,000          6%
+Dados/BI (Excel, SQL, Power BI)                                          7%          4%             9,281         15,200         15%
+Marketing digital / tráfego / growth                                     2%          0%             4,857         11,849          8%
+Banco privado: gerente comercial/PJ                                      2%          0%             6,936         11,125          2%
+Mercado financeiro (banco de investimento, gestora)                      0%          1%             3,000          7,669          1%
+Trainee de multinacional                                                 1%          0%             3,000          9,735          3%
+Comércio exterior / logística internacional                              0%          0%             6,005          8,720         11%
+RH / gestão de pessoas                                                   0%          0%             5,162          6,967          2%
+Gestão de projetos / PMO                                                 0%          0%             5,507          7,514          5%
+RI: ONGs / organismos internacionais / consulados                        0%          0%             3,000          5,099         10%
+Academia: mestrado -> doutorado (bolsa CAPES)                            0%          0%             2,613          3,045         20%
+
+=== EFEITO DAS PÓS-GRADUAÇÕES / FORMAÇÕES EXTRAS (65%) — ≥18k aos 28 | salário mediano ===
+Pós / formação                                                       Vendas B2B/Saa       Dados/BI (Exce       Comércio exter       Trainee de mul       RI: ONGs / org       Assessor de in
+Nenhuma                                                                12% |   7.1k          1% |   7.9k          0% |   5.4k          0% |   3.0k          0% |   3.0k          8% |   3.0k
+Especialização/MBA EaD barata (~R$ 4 mil)                              14% |   7.4k          2% |   8.3k          0% |   5.6k          0% |   3.0k          0% |   3.0k          8% |   3.0k
+MBA presencial de marca (FGV/COPPEAD/Ibmec, ~R$ 50 mil)                20% |   8.5k          5% |   9.9k          0% |   6.7k          1% |   3.0k          0% |   4.1k         10% |   3.0k
+Certificação da área (CPA-20/CEA, Power BI, PMP, Google Ads...)         16% |   8.1k          2% |   8.9k          0% |   6.0k          0% |   3.0k          0% |   3.6k          9% |   3.0k
+Curso + prática forte de VENDAS (~100h)                                18% |   7.8k          3% |   9.2k          0% |   6.5k          1% |   3.0k          0% |   3.0k         10% |   3.0k
+Inglês C1 certificado                                                  19% |   8.7k          4% |   9.6k          0% |   6.7k          1% |   3.0k          0% |   3.7k         10% |   3.0k
+Pós/mestrado em Relações Internacionais                                14% |   7.2k          2% |   8.3k          0% |   5.7k          0% |   3.0k          0% |   3.8k          8% |   3.0k

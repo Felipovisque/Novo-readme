@@ -508,6 +508,108 @@ Script: `simulacao/meu_caso.py`. O que muda com as suas informações:
 
 ---
 
+## 2.7 Todas as carreiras para quem faz Administração (com o seu perfil)
+
+Script: `simulacao/carreiras_adm.py`. São 18 caminhos (concursos, mercado, vendas, Relações
+Internacionais e academia) mais 7 tipos de pós-graduação ou formação extra, todos simulados com o
+**seu** perfil: EaD, CR baixo, networking zero, inglês intermediário, família banca o estudo e diploma
+por volta de jan/2030. Nos caminhos de mercado, "≥ R$ 8 mil" é renda, não estabilidade.
+
+### Ranking (cumprindo 65% → cumprindo 85%)
+
+| # | Caminho | ≥ R$ 8 mil até 25 | ≥ R$ 18 mil aos 28 | Salário mediano aos 28 | Os 10% melhores aos 28 | Trabalho fora até 28 |
+|---|---|---|---|---|---|---|
+| 1 | **Concurso: escada médio → superior** (integral) | **48% → 52%** | 55% → 72% | R$ 20 mil | R$ 20 mil | — |
+| 2 | **Concurso: direto no superior top** (integral) | 13% → 19% | **86% → 89%** | R$ 20 mil | R$ 20 mil | — |
+| 3 | **Concurso: Administrador federal** (universidades e órgãos), subindo depois | 3% → 4% | 58% → 62% | R$ 20 mil | R$ 20 mil | — |
+| 4 | **Concurso: estatais de nível superior** (Petrobras, BB, Caixa, BNDES) | 8% → 10% | 33% → 36% | R$ 12 mil | R$ 20 mil | — |
+| 5 | **Vendas B2B/SaaS** (pré-vendas, depois executivo de contas) | 13% → 19% | 12% → 20% | R$ 7–9 mil | **R$ 19–24 mil** | **17–19%** |
+| 6 | Concurso: CACD (diplomata) | 1% → 2% | 20% → 31% | R$ 0 (estudando) | R$ 22 mil | (depois dos 28) |
+| 7 | Assessor de investimentos (vendas + finanças) | 8% → 9% | 8% → 11% | R$ 3 mil | R$ 15–19 mil | 3% |
+| 8 | Concurso: Oficial de Chancelaria (Itamaraty) | 3% | 10% | R$ 0 (concurso raro) | R$ 10–20 mil | 6% |
+| 9 | Dados/BI (Excel, SQL, Power BI) | 3% → 7% | 1% → 4% | R$ 8–9 mil | R$ 13–15 mil | 15% |
+| 10 | Banco privado: gerente comercial/PJ | 1% → 2% | 0% | R$ 6–7 mil | R$ 10–11 mil | 2% |
+| 11 | Marketing digital / tráfego / growth | 1% → 2% | 0% | R$ 4–5 mil | R$ 10–12 mil | 8% |
+| 12 | Comércio exterior / logística internacional | 0% | 0% | R$ 5–6 mil | R$ 8–9 mil | 10% |
+| 13 | Gestão de projetos / PMO | 0% | 0% | R$ 5–5,5 mil | R$ 7–7,5 mil | 5% |
+| 14 | RH / gestão de pessoas | 0% | 0% | R$ 5 mil | R$ 6–7 mil | 2% |
+| 15 | Trainee de multinacional | 1% | 0% | R$ 3 mil (poucos entram) | R$ 10 mil | 3% |
+| 16 | Mercado financeiro (banco de investimento, gestora) | 0% | 1% | R$ 3 mil (poucos entram) | R$ 7–8 mil | 1% |
+| 17 | RI: ONGs, organismos internacionais, consulados | 0% | 0% | R$ 3 mil | R$ 5 mil | 10% |
+| 18 | Academia: mestrado → doutorado (bolsa CAPES) | 0% | 0% | R$ 2,5–3 mil (bolsa) | R$ 3 mil | **20%** (doutorado-sanduíche) |
+
+**Chance de passar no concurso-alvo até os 28:** Administrador federal **88%** · estatais **56%** ·
+CACD 26% → 38% · Oficial de Chancelaria 17% (o concurso quase não abre).
+
+### O que isso quer dizer
+1. **Para o seu perfil, concurso continua dominando.** Nenhum caminho de mercado chega perto da
+   escada ou do superior direto em estabilidade e em salário aos 28.
+2. **Achado novo: o concurso de Administrador federal é o degrau mais seguro.** É cargo de nível
+   superior específico para quem é formado em Administração, com concorrência menor: 88% de chance de
+   passar até os 28. O salário começa em ~R$ 6 mil, mas **a pós aumenta o salário por lei**: nos cargos
+   técnico-administrativos das universidades federais, especialização dá **+30%** e mestrado **+52%**
+   (Incentivo à Qualificação). Dali você continua estudando para subir (58–62% chegam a R$ 18 mil+
+   aos 28). **É um bom "plano B de nível superior"** para logo depois do diploma.
+3. **Estatais (Petrobras, BB, Caixa, BNDES) são um bom meio-termo:** 56% de chance de passar, ~R$ 12 mil,
+   e no seu caso (sem contatos) também valem a prova impessoal.
+4. **Vendas é o melhor caminho de mercado, de longe.** É o lugar onde EaD, CR e networking zero
+   pesam menos, porque você é medido pelo resultado. O salário mediano aos 28 é de R$ 7–9 mil, os 10%
+   melhores passam de R$ 19–24 mil, e é a melhor chance de **trabalhar fora ou remoto em dólar/euro
+   (17–19%)** sem concurso. **É o seu melhor plano B fora do concurso:** dá para entrar com só uns 3 a
+   6 meses de preparação.
+5. **Relações Internacionais, na prática:**
+   - **Como carreira de mercado no Brasil, RI paga pouco** (ONGs e consulados ficam em R$ 3–5 mil).
+   - **O valor do RI está nos concursos do Itamaraty.** O Oficial de Chancelaria é a carreira de RI
+     "possível" (você trabalha em embaixadas no exterior), mas o concurso é raro. O CACD é o topo.
+   - **Não faça uma segunda graduação em RI:** o CACD e o Oficial de Chancelaria aceitam qualquer
+     diploma. Uma **pós em RI barata** só vale se você for mirar o Itamaraty de verdade, porque o
+     conteúdo ajuda.
+6. **Mercado financeiro, trainee e organismos internacionais** quase não abrem portas para o seu
+   perfil hoje. Para eles, contatos e diploma de faculdade de marca pesam demais.
+7. **Academia (mestrado → doutorado)** tem a maior chance de exterior (doutorado-sanduíche), mas paga
+   bolsa até os 30+. Só vale se você gostar de pesquisa.
+
+### Qual pós-graduação vale a pena? (efeito no mercado, cumprindo 65%)
+
+| Pós ou formação | Vendas B2B: ≥ R$ 18 mil aos 28 | Vendas B2B: salário mediano | Dados/BI: salário mediano | Custo aproximado |
+|---|---|---|---|---|
+| Nenhuma | 12% | R$ 7,1 mil | R$ 7,9 mil | — |
+| Especialização/MBA EaD barata | 14% | R$ 7,4 mil | R$ 8,3 mil | ~R$ 4 mil |
+| Pós/mestrado em RI | 14% | R$ 7,2 mil | R$ 8,3 mil | ~R$ 8 mil |
+| Certificação da área (CPA-20/CEA, Power BI, PMP, Google Ads) | 16% | R$ 8,1 mil | R$ 8,9 mil | ~R$ 1,5 mil |
+| **Curso + prática forte de vendas** | **18%** | R$ 7,8 mil | R$ 9,2 mil | ~R$ 1 mil |
+| **Inglês C1 certificado** | **19%** | **R$ 8,7 mil** | R$ 9,6 mil | ~R$ 1,5 mil |
+| MBA presencial de marca (FGV, COPPEAD, Ibmec) | 20% | R$ 8,5 mil | **R$ 9,9 mil** | **~R$ 50 mil** |
+
+**Pós-graduação, na prática:**
+- **No mercado, inglês C1, vendas e certificações rendem quase o mesmo que um MBA caro, custando de
+  30 a 50 vezes menos.** O MBA EaD barato quase não muda nada no mercado.
+- **No concurso, faça a pós DEPOIS da posse, nunca antes.** Antes, ela rouba horas de estudo. Depois,
+  ela **aumenta o salário**: +30% (especialização) ou +52% (mestrado) nos cargos técnico-administrativos
+  federais, de 7,5% a 12,5% no Judiciário e no MPU, e conta pontos em provas de títulos de outros
+  concursos. Uma especialização EaD de R$ 4 mil feita depois da posse pode render **milhares de reais
+  por mês pelo resto da carreira.**
+- **Mestrado** só se você for para a academia, para o CACD ou para concorrer a bolsa no exterior.
+
+### Aprender vendas: vale para todo mundo
+Saber vender é útil em **todos** os caminhos: no mercado, para empreender aos 28+, para ter chefia
+no serviço público, na entrevista de bolsa, no namoro e na vida. **Mas não agora:** até o TCE-GO e
+durante a subida, o foco é a prova. Bom momento: **logo depois da primeira posse**, com 1 ou 2 livros e
+um curso curto (~R$ 1 mil). Se o concurso não engrenar (veja o gatilho abaixo), vendas vira o plano B
+principal.
+
+### Estratégia final: concurso como plano A, mercado como plano B
+- **Plano A:** escada híbrida em tempo integral (seção 2.6).
+- **Degraus de segurança de nível superior** depois do diploma: **Administrador federal** e
+  **estatais**, prestados junto com os concursos top.
+- **Gatilho do plano B:** se em **dez/2028** você não tiver passado em nada **e** estiver cumprindo
+  menos de 55%, faça 3 a 6 meses de preparação em **vendas B2B** e entre no mercado. Você pode voltar
+  ao concurso depois, já com renda.
+- **Itamaraty:** CACD ou Oficial de Chancelaria como **fase 2**, com cargo estável, usando uma pós em
+  RI feita depois da posse como preparação.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
