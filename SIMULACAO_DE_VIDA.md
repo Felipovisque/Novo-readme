@@ -249,6 +249,86 @@ uns 2 anos na escada e uns R$ 200 mil até os 28.
 
 ---
 
+## 2.3 E se eu largar o trabalho e estudar em tempo integral?
+
+Script: `simulacao/integral.py`. Considerei que você sai do cartório em **fev/2027** (como já
+planejava) e **não pega outro estágio**. Fica sem a bolsa de estágio e estuda em tempo integral.
+
+### A rotina integral (com academia todo dia e surf no fim de semana)
+
+| Horário | Seg / Qua | Ter / Qui / Sex | Sáb | Dom |
+|---|---|---|---|---|
+| 6h00–8h00 | | | **Surf** | **Surf** |
+| 7h00–9h30 | Inglês 7h45 | **Bloco 1** (2h30, matéria pesada) | | |
+| 9h30–12h30 | **Bloco 1** (3h) | **Bloco 2** (2h30) | **Bloco 9h–13h** (simulado ou questões) | **9h–11h30** (redação e revisão) |
+| 12h30–14h | Almoço e descanso | Almoço e descanso | Livre | Livre |
+| 14h–16h | **Bloco 2** (faculdade/Estatística) | **Bloco 3** (faculdade/Estatística) | Livre | Livre |
+| 16h–17h | **Academia** | **Academia** | | |
+| 17h30–19h | **Bloco 3** (questões) | **Bloco 4** (questões) | | Replanejamento (20 min) |
+| Noite | Livre | Livre | Livre | Livre |
+
+**Total: ~43h/semana, sendo ~35h de concurso e ~8h de faculdade.** No caminho com estágio, eram
+~25h de concurso. Comparei também uma versão **pesada de 45h só de concurso**, com mais risco de
+esgotamento.
+
+### Resultado
+
+| Situação | Cumprindo | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil até 28 | Idade mediana no cargo top | Renda acumulada até 28 |
+|---|---|---|---|---|---|
+| **Estágio + 25h** (base) | 65% | 43% | 55% | 27,6 | R$ 531 mil |
+| Estágio + 25h | 85% | 49% | 74% | 27,3 | R$ 616 mil |
+| **Integral 35h** até o diploma | **55%** (sem estrutura) | 45% | 48% | — | R$ 494 mil |
+| **Integral 35h** até o diploma | 65% | 48% | 62% | 27,4 | R$ 554 mil |
+| **Integral 35h** até o diploma | 85% | 54% | 78% | 27,1 | R$ 634 mil |
+| Integral pesado 45h, família banca até passar | 65% | 51% | 65% | 27,3 | R$ 584 mil |
+| Integral pesado 45h, família banca até passar | 85% | **56%** | 79% | 27,0 | **R$ 659 mil** |
+| Integral 35h **direto no superior**, família banca | 65% | 13% | **89%** | **26,6** | R$ 484 mil |
+| Integral 35h **direto no superior**, família banca | 85% | 19% | **91%** | **26,3** | R$ 544 mil |
+
+*Para o TCE-GO, largar o cartório **agora** quase não muda nada (de ~0,9% para ~1,1%). Use o recesso
+de janeiro e saia em fevereiro, como já estava planejado.*
+
+### O que isso quer dizer
+
+1. **Estudar em tempo integral ajuda, mas menos do que parece.** Com os mesmos 65%, vai de 55% para
+   62% de cargo top aos 28. Isso acontece porque, no nível médio, o limite é a quantidade de vagas,
+   não só as suas horas.
+2. **O grande risco é a adesão cair.** Sem o cartório, ninguém te tira da cama, e muita gente com o
+   dia livre estuda **menos**. Integral a 55% dá 48% de cargo top, **pior que estágio a 65% (55%)**.
+   Largar o trabalho só vale se a rotina for tão rígida quanto um emprego.
+3. **Disciplina vale tanto quanto horas.** Estágio a 85% (74%) ≈ integral pesado a 75% (73%). Os
+   dois juntos (integral + 85%) dão o melhor resultado da escada: 56% de estabilidade aos 25 e 79% de
+   cargo top aos 28.
+4. **Se você vai largar tudo e a família pode bancar, o integral favorece ir direto no superior.**
+   Assim chega a 89–91% de cargo top aos 28, com posse por volta dos 26,5 anos, **a mais rápida de todas as
+   simulações**. O preço é ficar até uns 26–27 anos sem renda estável (só 13–19% estável aos 25).
+5. **Custos que o número não mostra:**
+   - dependência financeira da família;
+   - isolamento (estudar sozinho o dia todo pesa na cabeça e na vida amorosa);
+   - zero experiência profissional no currículo (a Chevening pede ~2 anos; o mercado também);
+   - o risco do "concurseiro eterno", se não passar em 3–4 anos.
+
+### Qual escolher?
+- **A família banca com tranquilidade e você topa ficar sem renda até uns 26–27?** Integral **direto no
+  superior** (T4). É o caminho mais rápido para o cargo top.
+- **Quer ter dinheiro e estabilidade mais cedo?** Integral na **escada híbrida** (T1/T3) é melhor que
+  a base, **desde que você mantenha 65% ou mais.**
+- **Não confia que vai manter a rotina sem um chefe?** Fique com **estágio + 25h** e trabalhe a
+  disciplina primeiro. Subir de 65% para 85% vale mais do que ganhar 10h por semana.
+- **Teste antes de decidir:** use as duas semanas do recesso de janeiro como **ensaio do integral**.
+  Se você cumprir 75% ou mais nessas duas semanas, o integral é para você. Se ficar abaixo de 60%,
+  pegue um estágio em fevereiro.
+
+**Regras para o integral dar certo:**
+- Horário de "bater ponto": **começar às 7h**, como num trabalho.
+- Estudar **fora de casa** (biblioteca ou sala de estudo) pelo menos de manhã.
+- Academia todo dia às 16h, como âncora fixa da rotina.
+- Surf no fim de semana às 6h e estudo logo depois; não volte para a cama.
+- Noites e domingo à tarde **livres de verdade**: vida social e namoro.
+- Planilha de horas reais toda semana. Se ficar 3 semanas seguidas abaixo de 60%, ative o **plano B**: pegue um estágio.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).

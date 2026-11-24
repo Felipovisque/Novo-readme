@@ -112,15 +112,20 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
 
             # ---------- estudo do mês ----------
             a = ades_mes(t)
-            ades = min(a, ADESAO_MES_RUIM) if rng.random() < P_MES_RUIM else \
+            ades = min(a, ADESAO_MES_RUIM) if rng.random() < c.get("p_mes_ruim", P_MES_RUIM) else \
                 rng.beta(a * 10, (1 - a) * 10)
+            integral = t >= c.get("integral_desde", 10**9)   # largou o trabalho para estudar
             if cargo:
                 planejado = c["h_sem_trabalhando"]
-            elif t >= grad:
+            elif t >= grad and not (integral and c.get("apoio_pos_diploma")):
                 planejado = min(c["h_sem"], H_SEM_POS_FORMADO)
                 salario = SALARIO_POS_FORMADO
-            else:
+            elif integral:
                 planejado = c["h_sem"]
+                salario = 0                     # sem bolsa de estágio
+            else:
+                planejado = c.get("h_sem_estagio", c["h_sem"])
+                salario = SALARIO_ESTAGIO
             efetivo = planejado * ades * SEMANAS_MES
 
             foco = c["foco"](cargo, t, grad)
