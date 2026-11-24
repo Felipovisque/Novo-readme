@@ -408,6 +408,47 @@ ir direto no superior em tempo integral, mas ele exige a família bancando você
 
 ---
 
+## 2.5 Networking zero: quanto isso pesa?
+
+Script: `simulacao/networking.py`. Hoje você não tem família com empresa nem contatos no mercado.
+
+| Caminho | Estável com ≥ R$ 8 mil até 25 | Cargo ou renda de ≥ R$ 18 mil até 28 | Renda acumulada até 28 |
+|---|---|---|---|
+| Mercado, **networking zero** (você hoje) | 4% | ~0% | R$ 229 mil |
+| Mercado, networking construído (estágio bom + LinkedIn) | 8% | ~0% | R$ 295 mil |
+| Mercado, networking forte (família com contatos) | 15% | ~0% | R$ 388 mil |
+| **Escada (concurso), com qualquer networking** | **43%** | **55%** | **R$ 533 mil** |
+
+*(O modelo de mercado é conservador no topo: alguém muito bom em banco ou consultoria pode passar de
+R$ 18 mil antes dos 28, mas isso é raro para quem sai de EaD sem contatos.)*
+
+**O que isso quer dizer:**
+1. **Concurso é o caminho que não depende de quem você conhece.** A prova é a mesma para o filho do
+   empresário e para você. Para quem tem networking zero, essa é a maior vantagem do concurso, e é
+   mais um motivo para a escada.
+2. **No mercado, a falta de contatos corta pela metade o que já era pouco** (de 8% para 4% de
+   estabilidade aos 25). Mesmo com família influente, o mercado fica muito atrás da escada no seu caso.
+3. **Networking se constrói, e vai importar depois:** para cargos de chefia no serviço público, para
+   bolsas de mestrado (cartas de recomendação), para o Itamaraty e para empreender aos 28+.
+
+**Como construir sem gastar nada (5 a 10 minutos por dia, ou já fazendo o que você faz):**
+- **Estágio novo** (banco, estatal, órgão público): seja o estagiário que todo mundo lembra e peça
+  recomendação no LinkedIn quando sair. *Completar 1 ano no cartório também conta: o tabelião e os
+  escreventes conhecem advogados, empresários e servidores.*
+- **LinkedIn:** perfil arrumado e 1 conexão nova por semana com servidores dos órgãos que você quer
+  (TCE, Bacen, assembleias). Pergunte como é a rotina; quase todo mundo responde.
+- **Igreja, jiu-jitsu, surf e curso de inglês:** é networking de verdade. Muitas oportunidades vêm de
+  "conhecidos de conhecidos".
+- **Comunidades de concurseiros** (grupos de estudo, Telegram e Discord do TCE e do Bacen): você troca
+  material e conhece quem vai ser seu colega de órgão.
+- **Seu amigo do canal dark no YouTube:** não vale entrar nisso agora, mas ele sabe editar vídeo,
+  automatizar e ganhar dinheiro na internet. Guarde esse contato para quando for empreender, depois do
+  cargo.
+- **Depois da posse, o networking explode:** colegas de órgão, cursos internos e outros órgãos. É aí que
+  vêm chefia, cargos em comissão e cessões, que trazem prestígio e salário extra.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).

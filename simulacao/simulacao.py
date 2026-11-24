@@ -90,8 +90,8 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
             # ---------- mercado ----------
             if c["trilha"] == "mercado":
                 if t == grad:
-                    mercado_trainee = rng.random() < 0.20
-                    salario = 9000 if mercado_trainee else 5500
+                    mercado_trainee = rng.random() < c.get("p_trainee", 0.20)
+                    salario = 9000 if mercado_trainee else c.get("salario_junior", 5500)
                 elif t > grad and (t - grad) % 12 == 0:
                     salario *= 1.18 if mercado_trainee else 1.12
                 if t >= grad and salario >= 8000 and t_estavel is None:
