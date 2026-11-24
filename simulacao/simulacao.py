@@ -115,8 +115,14 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
             ades = min(a, ADESAO_MES_RUIM) if rng.random() < c.get("p_mes_ruim", P_MES_RUIM) else \
                 rng.beta(a * 10, (1 - a) * 10)
             integral = t >= c.get("integral_desde", 10**9)   # largou o trabalho para estudar
+            if not cargo:                       # estilo de vida até passar (social, monge...)
+                ades = float(np.clip(ades + c.get("ades_delta_sem_cargo", 0), 0.05, 0.98))
+            clt = t >= c.get("clt_desde", 10**9) # efetivado (CLT) no cartório
             if cargo:
                 planejado = c["h_sem_trabalhando"]
+            elif clt:
+                planejado = c["h_sem_clt"]
+                salario = c["salario_clt"]
             elif t >= grad and not (integral and c.get("apoio_pos_diploma")):
                 planejado = min(c["h_sem"], H_SEM_POS_FORMADO)
                 salario = SALARIO_POS_FORMADO
@@ -126,6 +132,8 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
             else:
                 planejado = c.get("h_sem_estagio", c["h_sem"])
                 salario = SALARIO_ESTAGIO
+            if not cargo:
+                planejado += c.get("h_extra_sem_cargo", 0)
             efetivo = planejado * ades * SEMANAS_MES
 
             foco = c["foco"](cargo, t, grad)

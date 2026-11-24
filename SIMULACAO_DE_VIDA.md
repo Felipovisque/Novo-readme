@@ -329,6 +329,79 @@ de janeiro e saia em fevereiro, como já estava planejado.*
 
 ---
 
+## 2.4 Estágio, efetivação, vida social e empreender
+
+Script: `simulacao/vida.py` (cumprindo 65% do plano, caminho da escada híbrida).
+
+### Continuar no estágio, completar 1 ano ou ser efetivado?
+
+| Opção | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil até 28 | Renda acumulada até 28 |
+|---|---|---|---|
+| Sair em fev/27 e ir para um estágio melhor | 43% | 55% | R$ 533 mil |
+| **Completar 1 ano (~mai/27) e depois ir para um estágio melhor** | 43% | 55% | R$ 531 mil |
+| Completar 1 ano e depois estudar integral 35h | 47% | 61% | R$ 549 mil |
+| Sair em fev/27 e estudar integral 35h | 48% | 61% | R$ 554 mil |
+| **Ser efetivado (CLT, 8h/dia, ~R$ 3 mil)** | **37%** | **47%** | R$ 493 mil |
+| Ser efetivado com ~R$ 4,5 mil | 37% | 48% | R$ 524 mil |
+
+- **Completar 1 ano não custa quase nada** e dá coisas que o modelo não mede:
+  - **30 dias de recesso** (o direito integral só vem com 1 ano; antes disso é proporcional);
+  - "1 ano de experiência" no currículo, que conta para bolsa Chevening e para estágios melhores;
+  - boas referências.
+  **Recomendação: fique até completar 1 ano (~maio/2027)**, a não ser que apareça em fevereiro um
+  estágio claramente melhor.
+- **A efetivação agora é ruim para o seu plano.** As 8h por dia tiram umas 9h de estudo por semana, e a
+  chance de cargo top cai de 55% para 47–48%. Um salário maior não compensa, porque o que pesa é o tempo.
+  **Quando a efetivação faz sentido:** *depois do diploma*, se você ainda não tiver passado. Aí já não pode
+  ser estagiário, e o cartório vira uma ponte segura.
+- Curiosidade: quem tem 10 anos de serviço em cartório pode prestar o concurso para **titular de
+  cartório** sem ser formado em Direito. É uma carreira muito bem paga, mas tem prova jurídica pesadíssima
+  e fica para depois dos 32. Não serve como plano para agora.
+
+### Vida social: virar monge até passar?
+
+| Estilo até passar no nível médio | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil até 28 | Namoro firme (2+ anos) aos 28 |
+|---|---|---|---|
+| Monge (quase não sai; +5h de estudo por semana) | 43% | 53% | **16%** |
+| **Equilibrado** (sexta à noite + domingo à tarde livres) | **44%** | **54%** | **25%** |
+| Festeiro (sai 3 vezes ou mais por semana) | 36% | 46% | 30% |
+
+*A parte do namoro é a mais chutada de todas (é um modelo simples de chance por mês de conhecer
+alguém). Use só para comparar os estilos entre si.*
+
+- **Virar monge não acelera a carreira.** As horas extras se perdem em cansaço, solidão e meses
+  ruins, e o resultado fica igual ou pior. O que cai é a sua chance de namorar sério até os 28,
+  de 25% para 16%.
+- **O festeiro namora um pouco mais, mas paga caro:** perde uns 8–9 pontos de carreira.
+- **O equilibrado é o melhor dos dois mundos.** Sair com os amigos na sexta, praia ou surf, e jiu-jitsu
+  depois de janeiro te mantêm são **e** são onde você conhece gente.
+- **Regra prática:** 1 noite fixa por semana para sair, e no máximo 1 noite extra se no dia seguinte
+  não houver bloco de manhã. Na semana de prova grande, nenhuma.
+
+### Empreender?
+
+| Opção | Estável com ≥ R$ 8 mil até 25 | Cargo ou renda de ≥ R$ 18 mil até 28 |
+|---|---|---|
+| Escada híbrida (base) | 43% | 55% |
+| **Empreender no lugar do concurso** (2027) | 10% | 8% (2% chegam a R$ 40 mil ou mais) |
+| Escada + negócio paralelo **depois** do primeiro cargo (4h/semana) | 43% | **39%** |
+
+- Empreender agora troca uma chance alta de estabilidade por uma loteria: muita chance de fechar ou
+  ficar pequeno e uma chance pequena de ir muito bem. Hoje você não tem capital, experiência de
+  mercado nem uma ideia testada, então **não é a hora.**
+- Mesmo um negócio paralelo pequeno depois do nível médio **rouba as horas da subida para o superior**
+  (de 55% para 39%).
+- **Quando empreender faz sentido:** **depois do cargo final** (nível superior, por volta dos 27–28), com
+  salário alto bancando o risco. Uma ideia natural para você seria algo ligado a surf, viagens ou
+  ensinar concurseiros, contando a sua própria história.
+
+### Então, o caminho mais rápido é a escada pelo nível médio?
+**Sim, para ter estabilidade e dinheiro cedo.** A escada híbrida dá a maior chance de ter alguma
+coisa aos 25 e a maior renda acumulada. O único caminho que chega mais rápido ao **cargo top** é
+ir direto no superior em tempo integral, mas ele exige a família bancando você até uns 26–27 anos.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
