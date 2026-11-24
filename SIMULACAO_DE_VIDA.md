@@ -264,7 +264,7 @@ planejava) e **não pega outro estágio**. Fica sem a bolsa de estágio e estuda
 | 12h30–14h | Almoço e descanso | Almoço e descanso | Livre | Livre |
 | 14h–16h | **Bloco 2** (faculdade/Estatística) | **Bloco 3** (faculdade/Estatística) | Livre | Livre |
 | 16h–17h | **Academia** | **Academia** | | |
-| 17h30–19h | **Bloco 3** (questões) | **Bloco 4** (questões) | | Replanejamento (20 min) |
+| 17h30–19h | **Bloco 3** (questões) | **Bloco 4** (questões) | | Replanejamento (20 min, às 17h) + **igreja 18h30** |
 | Noite | Livre | Livre | Livre | Livre |
 
 **Total: ~43h/semana, sendo ~35h de concurso e ~8h de faculdade.** No caminho com estágio, eram
@@ -365,6 +365,7 @@ Script: `simulacao/vida.py` (cumprindo 65% do plano, caminho da escada híbrida)
 | Monge (quase não sai; +5h de estudo por semana) | 43% | 53% | **16%** |
 | **Equilibrado** (sexta à noite + domingo à tarde livres) | **44%** | **54%** | **25%** |
 | Festeiro (sai 3 vezes ou mais por semana) | 36% | 46% | 30% |
+| **Equilibrado + igreja no domingo às 18h30** | **43%** | **54%** | **35%** |
 
 *A parte do namoro é a mais chutada de todas (é um modelo simples de chance por mês de conhecer
 alguém). Use só para comparar os estilos entre si.*
@@ -372,7 +373,12 @@ alguém). Use só para comparar os estilos entre si.*
 - **Virar monge não acelera a carreira.** As horas extras se perdem em cansaço, solidão e meses
   ruins, e o resultado fica igual ou pior. O que cai é a sua chance de namorar sério até os 28,
   de 25% para 16%.
-- **O festeiro namora um pouco mais, mas paga caro:** perde uns 8–9 pontos de carreira.
+- **O festeiro namora um pouco mais, mas paga caro:** perde uns 8–9 pontos de carreira. Além disso, você mesmo disse que festa não funciona para você.
+- **A igreja no domingo à noite é o melhor cenário:** usa um horário que já era livre, então não
+  custa nada de estudo. Ela te põe num grupo fixo, toda semana, com gente que costuma levar namoro
+  a sério e pensar em casamento. No modelo, o namoro firme aos 28 sobe de 25% para 35%.
+  *(O modelo é simples: supõe um pouco mais de chance de conhecer alguém e de o namoro ser sério. O
+  resto depende de você.)* Grupo de jovens, células e voluntariado da igreja ampliam isso ainda mais.
 - **O equilibrado é o melhor dos dois mundos.** Sair com os amigos na sexta, praia ou surf, e jiu-jitsu
   depois de janeiro te mantêm são **e** são onde você conhece gente.
 - **Regra prática:** 1 noite fixa por semana para sair, e no máximo 1 noite extra se no dia seguinte
@@ -480,7 +486,7 @@ A meta original de "fluente nos dois aos 24" não fecha com a sua agenda. Uma me
 3. **Manhã é para o pesado** (teoria e matéria nova). **Noite é para o leve** (questões, revisão, lei seca).
 4. **Sábado à tarde é o "buffer":** o que ficou para trás na semana vai para lá e não acumula na
    semana seguinte.
-5. **Domingo à noite, 20 minutos:** conte as horas reais, ajuste a semana e escolha as 3 prioridades.
+5. **Domingo, às 17h (antes da igreja), 20 minutos:** conte as horas reais, ajuste a semana e escolha as 3 prioridades.
 6. **Use o carro:** inglês todo dia. Nos dias de Licitações, ouça o áudio da Lei 14.133 (tem no YouTube e
    em apps de lei seca).
 7. **Celular fora do quarto** nos blocos da manhã. Esse é o seu melhor horário, então proteja-o.
@@ -495,7 +501,7 @@ A meta original de "fluente nos dois aos 24" não fecha com a sua agenda. Uma me
 | 7h45–9h | Inglês | Bloco A (cont.) | Inglês | Bloco A (cont.) | Bloco A (cont.) | **8h–12h Bloco grande / Simulado** | **8h30–11h30 Bloco** (redação + revisão) |
 | 9h30–15h45 | Cartório | Cartório | Cartório | Cartório | Cartório | | |
 | 16h30–17h45 | Academia/natação | Academia/natação | Academia/natação | Academia/natação | Academia/natação | 14h–16h **Buffer** | Tarde livre |
-| 19h30–21h30 | **Bloco B** (questões) | **Bloco B** | **Bloco B** | **Bloco B** | **Livre** (vida social) | Livre | 20 min de replanejamento + 30 min de Estatística |
+| 19h30–21h30 | **Bloco B** (questões) | **Bloco B** | **Bloco B** | **Bloco B** | **Livre** (vida social) | Livre | 17h: replanejamento (20 min) · **18h30: igreja** |
 | No carro | Áudio de inglês | Áudio de lei seca | Áudio de inglês | Áudio de lei seca | Áudio de inglês | | |
 
 Isso dá ~25h planejadas por semana, ou seja, ~16h reais. **Sexta à noite e domingo à tarde ficam livres
@@ -551,7 +557,7 @@ uma linha no **caderno de erros**. Revise o caderno toda sexta de manhã.
 - Manhãs: Adm. Geral (planejamento, organização, direção e controle, PDCA, estrutura) e Gestão de
   Pessoas. Como você já viu isso na faculdade, vá rápido e foque em questões.
 - Noites: questões dessas duas + Português (orações, coesão).
-- **Dom 13:** **1ª redação** (tema geral, 30 linhas, com tempo marcado) + **30 min de Estatística 1**
+- **Dom 13:** **1ª redação** (tema geral, 30 linhas, com tempo marcado) + **30 min de Estatística 1** (no bloco da manhã; à noite é igreja)
   (só para manter o assunto vivo: média, mediana, moda).
 - Meta: 1 redação escrita, ~120 questões na semana.
 
@@ -560,7 +566,7 @@ uma linha no **caderno de erros**. Revise o caderno toda sexta de manhã.
   básica (PCASP, regimes, receita e despesa: só o essencial).
 - Noites: questões + RLM.
 - **Sáb 19:** **Simulado 1 completo** (70 questões + redação, 4h30). À tarde: correção e caderno de erros.
-- **Dom 20:** 2ª redação + 30 min de Estatística.
+- **Dom 20:** 2ª redação + 30 min de Estatística (de manhã) · igreja às 18h30.
 - *Atenção às APs do CEDERJ que caírem nesta semana.*
 
 ### Semana 5: 21/12 – 27/12 · *Semana de Natal = semana de recuperação*
@@ -606,7 +612,7 @@ Meta: ~300 questões na semana e o caderno de erros revisado inteiro.
   até 17/01.
 
 ### Estatística 1 durante o plano
-- De 13/12 até 17/01: **30 minutos por domingo** (estatística descritiva). Só para não chegar
+- De 13/12 até 17/01: **30 minutos por domingo, no bloco da manhã** (estatística descritiva). Só para não chegar
   frio em fevereiro.
 - **Depois de 17/01 ela vira o foco:** de 18/01 até o início do semestre, 5h por semana de
   pré-estudo (listas antigas do CEDERJ, Khan Academy, um bom livro-texto). Durante 2027.1, aula

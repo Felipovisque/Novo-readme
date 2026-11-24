@@ -47,7 +47,7 @@ SOCIAL = {
                                                  ades_delta_sem_cargo=-0.08), 1.4),
 }
 
-def namoro(fator_social, idade_estavel, n):
+def namoro(fator_social, idade_estavel, n, p_serio=0.35):
     """Chance de, aos 28, estar num namoro firme há 2+ anos (pré-requisito para casar ~28)."""
     t_est = np.where(np.isnan(idade_estavel), 999, (idade_estavel - 22.9) * 12)
     firme = np.zeros(n, dtype=bool)
@@ -57,7 +57,7 @@ def namoro(fator_social, idade_estavel, n):
             f = 1.1 if t >= t_est[i] else fator_social   # com cargo, todo mundo relaxa um pouco
             if estado == "solteiro":
                 if rng.random() < 0.045 * f:
-                    estado, dur = ("serio" if rng.random() < 0.35 else "casual"), 0
+                    estado, dur = ("serio" if rng.random() < p_serio else "casual"), 0
             else:
                 dur += 1
                 fim = 0.015 if estado == "serio" else 0.20
@@ -95,6 +95,12 @@ if __name__ == "__main__":
         r = simular(c, adesao=0.65, n=N_V)
         p = namoro(f, r["idade_estavel"], 4000)
         print(f"  {nome:58s} {r['estavel8k_25'].mean():10.0%} {r['top18k_28'].mean():11.0%} {p:28.0%}")
+    # igreja no domingo à noite: horário que já era livre (não custa estudo);
+    # mais um lugar para conhecer gente, e namoros ali tendem a ser mais sérios
+    r = simular(A, adesao=0.65, n=N_V)
+    p = namoro(1.25, r["idade_estavel"], 4000, p_serio=0.50)
+    print(f"  {'Equilibrado + igreja domingo 18h30':58s} {r['estavel8k_25'].mean():10.0%} "
+          f"{r['top18k_28'].mean():11.0%} {p:28.0%}")
     print()
 
     print("=== 3. EMPREENDEDORISMO ===")
