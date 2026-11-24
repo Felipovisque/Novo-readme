@@ -10,8 +10,8 @@
 
 ## 0. Antes de tudo: 4 coisas para fazer HOJE ou AMANHÃ
 
-1. **Confira a data da Transpetro no seu cartão de confirmação da Cesgranrio.** Você me disse 6/12, mas
-   várias notícias falam em **29/11 (este domingo)**. Se for dia 29, a semana 1 abaixo já inclui a prova.
+1. ✅ **Transpetro confirmada: domingo, 6/12** (está na semana 2 do plano). Confira no cartão de
+   confirmação o local e o horário, e chegue 1h antes.
 2. **Hoje à noite (terça, 24/11): só revisão leve de inglês (1h) e cama cedo.** A prova é amanhã às 7h45.
    Não dá para aprender o semestre numa noite. Dá para chegar descansado, e isso vale mais pontos.
 3. **Peça ao cartório o seu recesso de estágio de 05/01 a 16/01.** A Lei 11.788/2008 (art. 13) garante
@@ -1020,21 +1020,27 @@ uma linha no **caderno de erros**. Revise o caderno toda sexta de manhã.
 - **Ter 24 (hoje):** 1h de revisão de inglês (vocabulário e a gramática da unidade) e cama até 22h30.
 - **Qua 25:** **prova de inglês**. À noite: baixe o edital da FCC, monte o edital verticalizado e
   crie a conta no QConcursos ou no TEC.
-- **Qui 26:** peça o recesso ao cartório, compre passagem e hotel para Goiânia e confira a data da
-  Transpetro. Bloco B: Legislação Institucional (1ª leitura da Lei Orgânica).
+- **Qui 26:** peça o recesso ao cartório, compre passagem e hotel para Goiânia e veja o local da
+  prova da Transpetro. Bloco B: Legislação Institucional (1ª leitura da Lei Orgânica).
 - **Sex 27:** Português FCC (crase e concordância) + 20 questões.
 - **Sáb 28:** **diagnóstico:** faça uma prova FCC antiga de nível médio de TCE ou TRT, com tempo.
   Anote a nota por matéria; ela vai definir o peso de cada uma. À tarde: buffer.
-- **Dom 29:** *se a Transpetro for hoje:* vá fazer a prova, sem cobrança. *Se não for:* 3h de RLM
-  (porcentagem, razão e proporção) + replanejamento.
+- **Dom 29:** 3h de RLM (porcentagem, razão e proporção) + replanejamento.
 - **Meta mínima da semana:** prova de inglês feita, edital lido, diagnóstico feito, logística resolvida.
 
-### Semana 2: 30/11 – 06/12 · *Licitações I + Transpetro (se for 6/12)*
+### Semana 2: 30/11 – 06/12 · *Licitações I + Transpetro (domingo, 6/12)*
 - Manhãs: **Licitações 14.133, parte 1** (princípios, agentes, fases, modalidades).
 - Noites: questões FCC de Licitações e Português (pontuação e regência).
 - **Seg/Qua:** aula de inglês.
-- **Sáb 5:** 3h de RLM + 1 prova antiga da Transpetro (só para conhecer o estilo).
-- **Dom 6:** **Transpetro** (se for hoje): é treino, então faça a prova inteira, controlando o tempo.
+- **Qui 3:** faça **1 prova antiga da Cesgranrio de nível médio** (Português + Matemática), com tempo,
+  para conhecer o estilo.
+- **Sáb 5:** leve: 2h de revisão do que errou na prova antiga + separe o documento com foto, a caneta
+  preta de tubo transparente e o cartão de confirmação. Veja o caminho até o local. Cama cedo, sem GTA.
+- **Dom 6:** **TRANSPETRO.** É treino, então faça a prova inteira, com tempo:
+  - Português e Matemática primeiro: zerar qualquer bloco elimina, então não deixe nada em branco.
+  - Depois, os Conhecimentos Específicos.
+  - Anote no caderno de erros o que mais te travou: isso vale para o TCE-GO.
+  - À noite, igreja às 18h30, se a prova terminar a tempo.
 - Meta: ~60 questões de Licitações, terminar a 1ª leitura de Legislação Institucional.
 
 ### Semana 3: 07/12 – 13/12 · *Adm. Geral + Gestão de Pessoas + 1ª redação*
