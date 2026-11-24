@@ -784,6 +784,81 @@ de sorte, de dinheiro da família ou de networking. Todas dependem de você.
 
 ---
 
+## 2.12 Como passar no TCE-GO e no Bacen
+
+### Onde cada um está (24/11/2026)
+| | TCE-GO (Técnico Administrativo) | Bacen (Técnico) | Bacen (Auditor) |
+|---|---|---|---|
+| Banca | FCC | **FGV** (anunciada em 18/11, segundo cursinhos) | FGV |
+| Vagas | 6 | 50 (no país todo) | 100 |
+| Prova | **17/01/2027** | Edital até ~30/12/2026 (prazo final 03/01/2027); prova **~fev–mar/2027** (no mínimo 2 meses depois do edital) | Igual |
+| Escolaridade | Nível médio ✅ | **Em aberto:** o Congresso aprovou exigir nível superior, falta a sanção | Nível superior (diploma **na posse**) ❌ você ainda não tem |
+| Sua chance agora | ~1% | ~2% (se continuar nível médio) | ~0% (sem diploma a tempo) |
+
+### Chance por prova conforme as horas efetivas de estudo (modelo)
+| Horas efetivas acumuladas | Nível médio bom (TCE-GO, Bacen Técnico) | Superior top (Auditor Bacen) |
+|---|---|---|
+| 170 (você em 17/01) | 0,9% | 0,2% |
+| 400 (você em ~mar/2027) | 1,9% | 0,3% |
+| 800 | 5,9% | 0,5% |
+| **1.100** | **11%** | 0,8% |
+| **1.500** | **17%** | 1,4% |
+| 2.000 | 21% | 2,9% |
+| **2.800** | 22% | **7%** |
+| 3.500 | 22% | **11%** |
+
+*É a chance em **uma** prova. Prestando 3 a 5 por ano, a chance de passar em pelo menos uma no ano
+fica bem maior. O "teto" do nível médio existe porque são poucas vagas.*
+
+**Resumindo:** **o que faz passar são horas de qualidade acumuladas.** Hoje você está no começo da
+curva. O TCE-GO e o Bacen de 2027 são as suas **primeiras provas de verdade**. As provas que você
+tem chance real de passar vêm quando você estiver na faixa de 1.100–1.500h (nível médio) e de
+2.800h+ (superior).
+
+### O que fazer, na ordem
+
+**1. Até 17/01: 100% TCE-GO (plano da seção 7), sem se dividir.**
+- O conteúdo que mais pontua: as **específicas de peso 2** (Licitações, Adm. Geral, Gestão de
+  Pessoas, Contabilidade Pública), mais **Legislação Institucional** (pontos fáceis, é leitura) e a
+  **redação acima de 50** (abaixo disso, você é eliminado).
+- O método é **questões da FCC**, caderno de erros e 4 simulados.
+- Quando o edital do Bacen sair (~30/12), **só leia o edital**. Não comece a estudar para ele antes da prova do TCE.
+
+**2. Quando o edital do Bacen sair, confira três coisas:**
+- **O Técnico ficou nível médio ou superior?** (veja se a lei foi sancionada antes do edital)
+- **Tem vaga para o Rio de Janeiro?** (o Bacen tem representação no Rio; veja a distribuição de vagas)
+- **O edital deixa ir para o "fim da fila"** se você for chamado antes de ter o diploma?
+
+**3. Se o Técnico do Bacen for NÍVEL MÉDIO → de 18/01 até a prova: 100% Bacen.**
+- Português e RLM você já terá treinado no TCE-GO. **Mas a FGV é diferente da FCC:** textos longos,
+  interpretação mais difícil e menos letra de lei. Troque para **questões da FGV** já no dia 18/01.
+- Matérias novas do edital (área bancária, Sistema Financeiro Nacional, o que vier): **me mande o
+  conteúdo programático e eu monto o plano matéria por matéria**, com peso × dificuldade.
+- No integral de janeiro a março, cumprindo 65–75%, você chega a ~400–450h efetivas: uma chance
+  pequena, mas real, numa prova com 50 vagas.
+
+**4. Se o Técnico virar NÍVEL SUPERIOR → o Bacen de 2027 vira só treino.**
+- Faça a prova só se der (para conhecer a FGV) e volte para a escada: concursos de nível médio
+  em 2027–2028.
+- **O seu Bacen de verdade é o de Auditor por volta de 2029–2031,** com diploma e 2.800h+. O
+  Auditor do Bacen cobra muita **economia, finanças, estatística e contabilidade**, exatamente
+  as matérias da seção 2.11 que viram a sua arma. **Começar a ficar bom em Estatística agora é
+  começar o Bacen de 2030.**
+
+**5. Em qualquer caso, os hábitos que aprovam:**
+- **Questões da banca certa** (FCC para o TCE, FGV para o Bacen), não só teoria.
+- **Um simulado por semana** nas últimas 4 semanas antes de cada prova.
+- **Caderno de erros** revisado toda sexta.
+- **IA como tutor e corretor** (seção 2.9), sem pular as questões.
+- **Não relaxar entre as provas:** a prova seguinte começa no dia seguinte à anterior.
+
+Fontes: [Grancursos: FGV é a banca do Bacen](https://blog.grancursosonline.com.br/concurso-bacen/) ·
+[Qconcursos: prazos do Bacen](https://folha.qconcursos.com/n/concurso-bacen-2026-prazos) ·
+[Direção Concursos: técnico com nível superior](https://www.direcaoconcursos.com.br/noticias/concurso-bacen-tecnico-nivel-superior) ·
+[Portal de Prefeitura: edital até 30/12](https://portaldeprefeitura.com.br/oportunidades/concurso-bacen-2026-edital-com-170-vagas-pode-sair-ate-30-de-dezembro/635842/)
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
