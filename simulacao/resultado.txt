@@ -1,0 +1,10 @@
+Cenário                                          ≥8k até 25 ≥18k até 28 Diplomata Jubilado Idade estável (mediana) Diploma (mediana) Renda acum. R$ mil
+A*) Escada híbrida (recomendada)                        43%         55%      0.0%      12%             25.3 (27% nunca)              26.1                533
+B*) Escada híbrida + diploma acelerado                  38%         60%      0.0%       0%             25.7 (28% nunca)              25.0                531
+A) Escada: nível médio -> superior (CEDERJ)             43%         40%      0.0%      12%             25.0 (35% nunca)              26.1                492
+B) Escada + diploma acelerado (EaD privada)             44%         41%      0.0%       0%             25.0 (34% nunca)              25.0                500
+C) Direto no nível superior (sem médio)                  7%         78%      0.0%      12%             27.2 (25% nunca)              26.1                431
+D) CACD puro desde 2027                                  1%          9%      9.3%      21%             27.9 (92% nunca)              26.0                175
+E) Escada + Direito Ibmec junto                         35%         14%      0.0%      20%             25.1 (51% nunca)              26.0                339
+F) Mercado (estágio -> trainee/analista)                 7%          0%      0.0%      15%             26.1 (80% nunca)              26.1                295
+G) Escada, mas sem levar Estatística a sério            44%         39%      0.0%      35%             25.0 (35% nunca)              26.0                492
