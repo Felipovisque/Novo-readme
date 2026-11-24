@@ -110,6 +110,71 @@ e se formar por volta dos 25. Isso precisa ser confirmado com a faculdade.)*
 
 ---
 
+## 2.1 E se você mudar a mentalidade e cumprir mais do plano?
+
+Rodei de novo os 4 caminhos principais, mudando só **quanto do plano você cumpre** (`simulacao/disciplina.py`,
+10 mil vidas por linha). As horas planejadas continuam as mesmas (~25h/semana como estagiário, ~16h
+com cargo). A diferença é quanto disso vira estudo de verdade. Mais disciplina também aumenta a chance
+de passar em Estatística 1. Os meses ruins (doença, término, crise) continuam acontecendo em ~8% dos
+meses, porque a vida não some.
+
+### Caminho recomendado (A\*: escada híbrida)
+
+| Quanto você cumpre | Estável com ≥ R$ 8 mil até o fim dos 25 | Cargo de ≥ R$ 18 mil até os 28 | Jubilamento | Renda acumulada até 28 |
+|---|---|---|---|---|
+| 50% (fase ruim) | 37% | 35% | 19% | R$ 435 mil |
+| **65% (hoje)** | 43% | 55% | 12% | R$ 532 mil |
+| 75% | 46% | 65% | 6% | R$ 582 mil |
+| **85%** | 49% | **74%** | 2% | R$ 616 mil |
+| 95% (máquina) | 50% | 79% | 2% | R$ 655 mil |
+| **Mudança gradual: 65% → 85% ao longo de 2027** | 47% | **72%** | 7% | R$ 599 mil |
+| Fogo de palha (90% por 3 meses e depois 60%) | 44% | 51% | 15% | R$ 537 mil |
+
+### Os outros caminhos com mais disciplina
+
+| Caminho | 65% | 85% | 95% | 65% → 85% gradual |
+|---|---|---|---|---|
+| B\*) Híbrida + diploma acelerado: ≥ R$ 18 mil até 28 | 61% | 77% | **82%** | 76% |
+| C) Direto no superior: ≥ R$ 18 mil até 28 | 79% | 87% | 90% | 87% |
+| C) Direto no superior: estável até 25 | 8% | 12% | 15% | 11% |
+| D) CACD puro: diplomata até 28 | 10% | 20% | 25% | 18% |
+
+### O que isso quer dizer
+
+1. **A disciplina pesa mais no longo prazo do que no curto.** Indo de 65% para 85%, sua chance de
+   cargo top até os 28 sobe de 55% para 74%, o risco de jubilamento cai de 12% para 2% e você ganha
+   ~R$ 85 mil a mais até os 28. Esse é o maior ganho de toda a simulação, maior do que qualquer
+   troca de caminho.
+2. **Você não precisa virar máquina.** A mudança *gradual* (65% → 85% ao longo de um ano) entrega
+   quase tudo o que os 85% entregam desde o primeiro dia (72% contra 74%). Subir aos poucos e
+   manter funciona.
+3. **Fogo de palha não adianta.** Três meses a 90% seguidos de queda para 60% dão um resultado
+   *pior* do que manter 65% o tempo todo (51% contra 55%). O que conta é a constância ao longo dos anos.
+4. **O TCE-GO quase não muda.** Mesmo a 95%, você chega a ~250h efetivas, e a chance vai de ~1%
+   para ~1,2%. Oito semanas é pouco para 6 vagas. A disciplina mostra resultado em 2028–2030, não em janeiro.
+5. **Ter "alguma coisa" aos 25 tem um teto (~50%)** que a disciplina sozinha não rompe. O limite é
+   o número de vagas e de editais de nível médio bom, não o seu esforço. Por isso faz sentido
+   **incluir banco/estatal (BB, Caixa) como rede de segurança** e aceitar prova fora do Rio, se
+   topar se mudar.
+6. **Disciplina alta deixa o CACD menos absurdo, mas ele continua arriscado:** 25% de chance de ser
+   diplomata até os 28 a 95%, com 3 em cada 4 vidas chegando aos 28 sem renda estável. A conclusão
+   não muda: CACD só depois, com cargo.
+7. **Com 85% ou mais, o diploma acelerado (B\*) vira a melhor opção:** 77–82% de cargo top e a maior
+   renda acumulada (~R$ 640–690 mil). Isso porque, com o diploma antes, você pode prestar o superior
+   mais cedo, e a sua disciplina transforma esse tempo em aprovação.
+
+### Como chegar de 65% a 85% sem virar outra pessoa
+- **Dois meses de rotina idêntica antes de aumentar a carga.** Primeiro o hábito, depois o volume.
+- **Medir em vez de sentir:** anote no app ou na planilha as horas reais e as questões feitas por dia.
+  O que é medido sobe sozinho uns 10 pontos.
+- **Mínimo do dia (20 questões + 15 min de revisão) mesmo em dia ruim**, porque é ele que impede a
+  queda para 50%.
+- **Nunca dois dias seguidos sem estudar.**
+- **Recompensa marcada:** sexta à noite livre e uma viagem curta depois de cada prova grande.
+- **Ambiente:** estudar de manhã fora do quarto (biblioteca ou sala de estudos) aumenta muito a adesão.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).

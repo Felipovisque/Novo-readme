@@ -48,16 +48,21 @@ def chance(tipo, horas):
     return teto / (1 + np.exp(-(horas - h50) / s))
 
 
-def simular(c):
-    """c: dicionário com as regras do cenário."""
-    res = {k: np.zeros(N) for k in
+def simular(c, adesao=ADESAO_MEDIA, n=N):
+    """c: regras do cenário. adesao: fração do plano que você cumpre —
+    um número (ex.: 0.85) ou uma função do mês t (para uma mudança gradual)."""
+    ades_mes = adesao if callable(adesao) else (lambda t: adesao)
+    ades_jan = ades_mes(0)
+    # mais disciplina -> mais chance em Estatística 1 (teto 98%)
+    p_estat = min(0.98, c["p_passar_estat"] + 0.5 * (ades_mes(6) - ADESAO_MEDIA))
+    res = {k: np.zeros(n) for k in
            ("estavel8k_25", "top18k_28", "diplomata_28", "jubilado", "renda_acum",
-            "idade_estavel", "diploma_idade", "fora_28")}
-    for i in range(N):
+            "idade_estavel", "diploma_idade", "fora_28", "idade_top")}
+    for i in range(n):
         # --- diploma ---
         jubilado = False
         if c["diploma"] == "cederj":
-            if rng.random() > c["p_passar_estat"]:
+            if rng.random() > p_estat:
                 jubilado = True
                 grad = mes(2027, 7) + int(rng.normal(30, 6))   # recomeça em EaD privada
             else:
@@ -68,7 +73,10 @@ def simular(c):
             grad = mes(2029, 1) + int(rng.normal(0, 4))
         grad = max(grad, 3)
 
-        h = {"medio": c.get("horas_iniciais", 0.0), "sup": 0.0, "cacd": 0.0}
+        # horas até o TCE-GO: ~260h planejadas (com recesso) x sua adesão
+        h = {"medio": 260 * ades_jan if "horas_iniciais" in c else 0.0,
+             "sup": 0.0, "cacd": 0.0}
+        t_top = None
         cargo, salario, renda = None, SALARIO_ESTAGIO, 0.0
         t_estavel = None
         mercado_trainee = False
@@ -87,8 +95,9 @@ def simular(c):
                 continue
 
             # ---------- estudo do mês ----------
-            ades = ADESAO_MES_RUIM if rng.random() < P_MES_RUIM else \
-                rng.beta(ADESAO_MEDIA * 10, (1 - ADESAO_MEDIA) * 10)
+            a = ades_mes(t)
+            ades = min(a, ADESAO_MES_RUIM) if rng.random() < P_MES_RUIM else \
+                rng.beta(a * 10, (1 - a) * 10)
             if cargo:
                 planejado = c["h_sem_trabalhando"]
             elif t >= grad:
@@ -126,6 +135,8 @@ def simular(c):
                         if novo > (salario if cargo else 0):
                             cargo, posse = tipo, t + (3 if tipo != "cacd" else 6)
                             salario_futuro = novo
+                            if tipo in ("sup_top", "cacd") and t_top is None:
+                                t_top = t
                         break
 
             if cargo and t >= posse:
@@ -137,6 +148,7 @@ def simular(c):
         res["estavel8k_25"][i] = t_estavel is not None and t_estavel <= FIM_25
         res["top18k_28"][i] = salario >= 18000 or (cargo in ("sup_top", "cacd"))
         res["diplomata_28"][i] = cargo == "cacd"
+        res["idade_top"][i] = 22.9 + t_top / 12 if t_top is not None else np.nan
         res["jubilado"][i] = jubilado
         res["renda_acum"][i] = renda
         res["idade_estavel"][i] = 22.9 + t_estavel / 12 if t_estavel is not None else np.nan
