@@ -175,6 +175,80 @@ meses, porque a vida não some.
 
 ---
 
+## 2.2 E se eu for para fora?
+
+Script: `simulacao/exterior.py`. Comparei 7 formas de ir para fora com o caminho recomendado (A\*).
+Lá fora, considerei que trabalho de estudante ou bolsa paga a vida, mas não sobra dinheiro, e que você
+não presta concurso enquanto estiver fora.
+
+**Portas reais para você hoje (22 anos, brasileiro, sem diploma ainda):**
+- **Working Holiday** (18 a 30 anos, até 12 meses trabalhando e viajando):
+  - **Nova Zelândia:** 300 vagas por ano, que acabam rápido.
+  - **Japão:** acordo novo, vale a partir de **1/12/2026**.
+  - Sites também citam **Austrália, França, Alemanha e Coreia do Sul**, mas confirme cada um no site oficial do país. A França seria ótima para o francês.
+  - **Você tem até os 30 anos, então não precisa ir agora.**
+- **Irlanda (visto de estudante Stamp 2):** curso de inglês de 25 semanas ou mais, podendo trabalhar 20h por semana no período de aulas e 40h nas férias. É preciso **comprovar uns €6,7 mil a €10 mil**, e o curso custa cerca de €2,8 mil a €4,5 mil.
+- **Canadá:** está caro e difícil. Há teto de vistos de estudo, e cerca de 59% dos pedidos foram recusados em 2025. Não recomendo para o seu perfil agora.
+- **Mestrado fora depois do diploma:** com bolsa (Chevening, Erasmus Mundus, DAAD) ou pago em Portugal. O seu CR 5,5 pesa contra as bolsas, e inglês forte e experiência compensam em parte.
+- **Cidadania europeia** (avô ou bisavô italiano ou português?) **muda tudo**. A Itália restringiu as regras em 2025; confira a sua situação.
+
+### Resultado (disciplina de 65% → disciplina de 85%)
+
+| Caminho | Temporada fora | Inglês C1 até 25 | Estável com ≥ R$ 8 mil até 25 | Cargo de ≥ R$ 18 mil até 28 | Renda acumulada até 28 |
+|---|---|---|---|---|---|
+| **A\*) Escada híbrida, só viagens de férias** | — | 30% → 48% | 43% → 49% | **55% → 74%** | **R$ 533 → 621 mil** |
+| **X0) Escada + intercâmbio curto** (8 semanas em jan/fev de 2028) | 100% | 40% → 58% | 42% → 49% | 51% → 72% | R$ 488 → 569 mil |
+| X1) Gap year **agora** (ago/27 a jul/28), trancando a faculdade | 100% | **80% → 84%** | 32% → 39% | 34% → 53% | R$ 316 → 393 mil |
+| X1b) Gap year **depois do diploma** (~27 anos) | 100% | 30% → 48% | 43% → 50% | 34% → 53% | R$ 317 → 398 mil |
+| X2) Escada + **mestrado com bolsa** fora (~26–27) | 9% → 13% | 30% → 48% | 43% → 50% | 52% → 70% | R$ 509 → 594 mil |
+| X3) Escada + **mestrado pago em Portugal** (~26–27) | 42% → 38% | 30% → 48% | 44% → 49% | 40% → 59% | R$ 351 → 452 mil |
+
+**Emigrar de vez em 2027**, largando o CEDERJ e trabalhando no que aparecer:
+
+| | Sem cidadania europeia | Com cidadania europeia |
+|---|---|---|
+| Ainda morando fora (e legal) aos 28 | 35% | 80% |
+| Carreira qualificada fora aos 28 | **6%** | 33% |
+| Volta ao Brasil sem cargo e sem diploma | **29%** | — |
+
+### O que isso quer dizer
+
+1. **O intercâmbio curto (X0) é o melhor custo-benefício.** São 8 semanas no recesso de janeiro e
+   fevereiro (Irlanda, Malta ou Canadá). Ele custa uns R$ 25 mil e só 3 a 4 pontos de "cargo top aos 28",
+   e sobe o inglês em 10 pontos. Dá para repetir em outro verão, ou nas férias do cargo depois.
+2. **O gap year de 1 ano é uma troca de verdade, não proibida.** Você ganha inglês quase garantido, uma
+   história de vida e independência. Em troca, a chance de cargo top aos 28 cai de 55% para 34% e você
+   tem uns R$ 200 mil a menos até os 28. O motivo é que ele atrasa o diploma e, com ele, toda a escada.
+   **Se for fazer:**
+   - vá **depois de passar em Estatística 1** (agosto de 2027 em diante);
+   - **antes, confira no CEDERJ se o trancamento conta no prazo máximo do curso**, porque isso pode virar jubilamento;
+   - mantenha 5h por semana de questões para não zerar o que já aprendeu.
+3. **Gap year depois do diploma (X1b) é a pior hora,** porque cai exatamente na janela em que você
+   deveria estar prestando nível superior. Se quiser fazer Working Holiday, faça **antes do diploma ou
+   depois de tomar posse**.
+4. **Tentar a bolsa de mestrado (X2) custa pouco.** Se você não ganhar, quase nada muda (55% → 52%).
+   Se ganhar, você mora fora com tudo pago e volta mais forte. Vale se inscrever todo ano depois do
+   diploma: a Chevening pede uns 2 anos de experiência, e estágio conta.
+5. **O mestrado pago em Portugal (X3) garante a ida**, mas custa caro (uns R$ 60 mil) e derruba o
+   cargo top de 55% para 40%. Só faz sentido se a ideia for **ficar** na Europa, não voltar.
+6. **Emigrar de vez sem cidadania europeia é a aposta mais arriscada da simulação toda:** 6% de
+   chance de carreira qualificada fora aos 28 e 29% de chance de voltar sem nada. **Com cidadania
+   europeia, vira um caminho sério** (80% ainda fora aos 28 e 33% com carreira qualificada). Descubra se você tem direito.
+7. **O caminho mais seguro para morar fora é o concurso.**
+   - Servidor **federal** tem, pela Lei 8.112: afastamento para mestrado ou doutorado (inclusive no
+     exterior), licença-capacitação e até 3 anos de licença sem remuneração, **com o cargo garantido**
+     na volta. Servidor estadual tem regras próprias.
+   - E, se você quiser morar fora de vez como profissão, o caminho é o **Itamaraty**.
+   - Ou seja: a escada também leva para fora, só que por volta dos 29–33, e com emprego garantido na volta.
+
+### Minha recomendação para quem quer conhecer o mundo
+**Escada híbrida + intercâmbio curto em jan/fev de 2028 + férias para viajar todo ano + candidatura a
+bolsa de mestrado depois do diploma.** Se o desejo de passar um ano fora for forte demais para
+segurar, faça o gap year **de ago/2027 a jul/2028, depois de Estatística**, sabendo que ele custa
+uns 2 anos na escada e uns R$ 200 mil até os 28.
+
+---
+
 ## 3. A sua vida no caminho recomendado (A\*), ano a ano
 
 Para cada ano há três versões: **boa** (os 25% melhores), **provável** (a mediana) e **ruim** (os 25% piores).
@@ -413,3 +487,10 @@ Meta: ~300 questões na semana e o caderno de erros revisado inteiro.
 - [Bacen: concurso autorizado com 170 vagas (Direção Concursos)](https://www.direcaoconcursos.com.br/noticias/concurso-bacen-autorizado-170-vagas)
 - [Transpetro: estrutura da prova de nível médio (Concurseiro Zero)](https://concurseirozero1.com.br/blog/tudo-sobre-concurso-transpetro-2026/)
 - [Transpetro: cargos de nível médio (Focus Concursos)](https://noticias.focusconcursos.com.br/noticias/transpetro-2026-quais-cargos-nao-exigem-curso-tecnico)
+- [Irlanda: regras financeiras para estudantes (Irish Immigration)](https://www.irishimmigration.ie/br/reminder-on-student-finance-requirements-from-30-june-2025/)
+- [Irlanda: visto de estudante (Eurodicas)](https://www.eurodicas.com.br/visto-de-estudante-para-irlanda/)
+- [Irlanda: custos do intercâmbio (Revista Oeste)](https://revistaoeste.com/oestegeral/2025/12/22/quanto-custa-um-intercambio-na-irlanda-para-trabalhar-e-estudar/)
+- [Nova Zelândia: Working Holiday para brasileiros (governo da NZ)](https://www.mfat.govt.nz/br/countries-and-regions/americas/brazil/new-zealand-embassy-to-brazil/brazil-new-zealand-working-holidays?l=pt_BR)
+- [Japão: acordo de férias-trabalho com o Brasil (Midiamax)](https://midiamax.com.br/brasil/2026/brasil-japao-assinam-acordo-permitira-jovens-viajar-trabalhar-ate-ano/)
+- [Canadá: teto de vistos de estudo 2026 (IRCC)](https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html)
+- [Canadá: mudanças para estudantes internacionais (University Affairs)](https://universityaffairs.ca/news/international-student-visa-permits-what-to-know/)

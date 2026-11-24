@@ -1,0 +1,27 @@
+=== Disciplina 65% (hoje) ===
+Cenário                                                        temporada fora C1 até 25 ≥8k até 25 ≥18k até 28 diploma (med.) renda acum. R$ mil
+A*) Escada híbrida, só viagens de férias                                   0%       30%        43%         55%           26.1                533
+X0) Escada + intercâmbio curto (jan-fev/2028, 8 semanas)                 100%       40%        42%         51%           26.1                488
+X1) Gap year Irlanda/WH JÁ (ago/27-jul/28), tranca a faculdade           100%       80%        32%         34%           27.1                316
+X1b) Gap year/WH DEPOIS do diploma (fev/30-jan/31, ~27 anos)             100%       30%        43%         34%           26.1                317
+X2) Escada + mestrado com BOLSA fora (~26-27 anos)                         9%       30%        43%         52%           26.1                509
+X3) Escada + mestrado PAGO em Portugal (~26-27 anos)                      42%       30%        44%         40%           26.0                351
+
+=== Disciplina 85% ===
+Cenário                                                        temporada fora C1 até 25 ≥8k até 25 ≥18k até 28 diploma (med.) renda acum. R$ mil
+A*) Escada híbrida, só viagens de férias                                   0%       48%        49%         74%           26.1                621
+X0) Escada + intercâmbio curto (jan-fev/2028, 8 semanas)                 100%       58%        49%         72%           26.1                569
+X1) Gap year Irlanda/WH JÁ (ago/27-jul/28), tranca a faculdade           100%       84%        39%         53%           27.1                393
+X1b) Gap year/WH DEPOIS do diploma (fev/30-jan/31, ~27 anos)             100%       48%        50%         53%           26.1                398
+X2) Escada + mestrado com BOLSA fora (~26-27 anos)                        13%       48%        50%         70%           26.1                594
+X3) Escada + mestrado PAGO em Portugal (~26-27 anos)                      38%       48%        49%         59%           26.1                452
+
+=== X5) Emigrar de vez em 2027 (sem cidadania europeia) ===
+  Ainda morando fora legalmente aos 28:       35%
+  Com diploma até os 28:                      50%
+  Carreira qualificada fora aos 28:           6%
+  Volta ao Brasil sem cargo nem diploma:      29%
+
+=== X5b) Emigrar de vez COM cidadania europeia ===
+  Ainda morando fora aos 28:                  80%
+  Carreira qualificada fora aos 28:           33%

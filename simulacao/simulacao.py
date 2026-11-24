@@ -57,7 +57,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
     p_estat = min(0.98, c["p_passar_estat"] + 0.5 * (ades_mes(6) - ADESAO_MEDIA))
     res = {k: np.zeros(n) for k in
            ("estavel8k_25", "top18k_28", "diplomata_28", "jubilado", "renda_acum",
-            "idade_estavel", "diploma_idade", "fora_28", "idade_top")}
+            "idade_estavel", "diploma_idade", "fora_28", "idade_top", "morou_fora")}
     for i in range(n):
         # --- diploma ---
         jubilado = False
@@ -72,6 +72,11 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
         else:  # EaD privada com aproveitamento de disciplinas
             grad = mes(2029, 1) + int(rng.normal(0, 4))
         grad = max(grad, 3)
+
+        # temporada fora com data marcada (ex.: gap year): tranca a faculdade
+        pausa = c.get("pausa")                  # (mês de início, duração, custo R$[, tranca?])
+        if pausa and pausa[0] < grad and (len(pausa) < 4 or pausa[3]):
+            grad += pausa[1]
 
         # horas até o TCE-GO: ~260h planejadas (com recesso) x sua adesão
         h = {"medio": 260 * ades_jan if "horas_iniciais" in c else 0.0,
@@ -92,6 +97,17 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
                 if t >= grad and salario >= 8000 and t_estavel is None:
                     t_estavel = t
                 renda += salario
+                continue
+
+            # ---------- temporada fora ----------
+            m = c.get("mestrado")               # mestrado fora depois do diploma
+            if m and pausa is None and t == grad + 3 and cargo not in ("sup_top", "cacd"):
+                if rng.random() < m["p"](ades_mes(t)):
+                    pausa = (t + 6, m["dur"], m["custo"])
+            if pausa and pausa[0] <= t < pausa[0] + pausa[1]:
+                if t == pausa[0]:
+                    renda -= pausa[2]           # custo de ida (curso, visto, reserva)
+                # lá fora o trabalho/bolsa paga a vida, mas não sobra; sem concurso
                 continue
 
             # ---------- estudo do mês ----------
@@ -149,6 +165,7 @@ def simular(c, adesao=ADESAO_MEDIA, n=N):
         res["top18k_28"][i] = salario >= 18000 or (cargo in ("sup_top", "cacd"))
         res["diplomata_28"][i] = cargo == "cacd"
         res["idade_top"][i] = 22.9 + t_top / 12 if t_top is not None else np.nan
+        res["morou_fora"][i] = bool(pausa) and pausa[0] <= FIM_28
         res["jubilado"][i] = jubilado
         res["renda_acum"][i] = renda
         res["idade_estavel"][i] = 22.9 + t_estavel / 12 if t_estavel is not None else np.nan
