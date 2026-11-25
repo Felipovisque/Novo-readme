@@ -1,0 +1,25 @@
+TCE-GO:
+  65%                    ~169h efetivas -> 0.9%
+  GTA sem regra (55%)    ~143h efetivas -> 0.9%
+  75%                    ~195h efetivas -> 1.0%
+
+Cenário                                                              adesão ≥8k até 25 ≥18k até 28 idade top jubilado
+Estágio + 25h (plano antigo)                                            65%        43%         55%      27.6      12%
+Estágio + 25h (plano antigo)                                            75%        46%         65%      27.5       7%
+Estágio + 25h (plano antigo)                                            85%        49%         73%      27.3       2%
+
+I1) Integral escada híbrida (vira p/ superior 12m antes do diploma)     65%        47%         61%      27.5       7%
+I1) Integral escada híbrida (vira p/ superior 12m antes do diploma)     75%        50%         70%      27.3       2%
+I1) Integral escada híbrida (vira p/ superior 12m antes do diploma)     85%        52%         78%      27.1       2%
+
+I2) Integral escada, vira p/ superior 24m antes do diploma              65%        42%         65%      27.2       7%
+I2) Integral escada, vira p/ superior 24m antes do diploma              75%        46%         73%      27.1       2%
+I2) Integral escada, vira p/ superior 24m antes do diploma              85%        50%         79%      27.0       2%
+
+I3) Integral direto no superior                                         65%        13%         88%      26.6       7%
+I3) Integral direto no superior                                         75%        16%         90%      26.5       2%
+I3) Integral direto no superior                                         85%        19%         90%      26.3       2%
+
+Efeito do GTA 6 no I1:
+  sem GTA (65%)                                ≥8k até 25: 47%  ≥18k até 28: 61%
+  GTA sem regra (55% nos 4 primeiros meses)    ≥8k até 25: 47%  ≥18k até 28: 60%

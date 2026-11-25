@@ -1,0 +1,14 @@
+
+Cumprindo 65% (escada + IA + 22h após posse)
+  Quando fica estável (≥8k)              % das vidas ≥18k aos 28 renda até 28
+  Passa até o fim de 2027 (~23 anos)             17%         83%        819k
+  Passa em 2028 (~24 anos)                       24%         84%        729k
+  Passa em 2029 (~25 anos)                       11%         91%        749k
+  Só depois / pelo superior direto               37%         99%        594k
+
+Cumprindo 85% (escada + IA + 22h após posse)
+  Quando fica estável (≥8k)              % das vidas ≥18k aos 28 renda até 28
+  Passa até o fim de 2027 (~23 anos)             24%         89%        879k
+  Passa em 2028 (~24 anos)                       22%         89%        789k
+  Passa em 2029 (~25 anos)                       13%         95%        834k
+  Só depois / pelo superior direto               35%        100%        644k

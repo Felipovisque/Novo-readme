@@ -1,0 +1,49 @@
+Chance no TCE-GO (só pela preparação até 17/01):
+  50% (fase ruim)            ~ 130h efetivas -> 0.8%
+  65% (hoje)                 ~ 169h efetivas -> 0.9%
+  75%                        ~ 195h efetivas -> 1.0%
+  85%                        ~ 221h efetivas -> 1.1%
+  95% (máquina)              ~ 247h efetivas -> 1.2%
+  65%->85% em 1 ano          ~ 169h efetivas -> 0.9%
+  fogo de palha (90%->60%)   ~ 234h efetivas -> 1.2%
+
+A*) Escada híbrida (recomendada)
+  disciplina                 ≥8k até 25 ≥18k até 28 diplomata jubilado  idade cargo top (mediana) renda acum. R$ mil
+  50% (fase ruim)                   37%         35%        0%      19%            —  (<50% chega)                435
+  65% (hoje)                        43%         55%        0%      12%                       27.6                532
+  75%                               46%         65%        0%       6%                       27.5                582
+  85%                               49%         74%        0%       2%                       27.3                616
+  95% (máquina)                     50%         79%        0%       2%                       27.1                655
+  65%->85% em 1 ano                 47%         72%        0%       7%                       27.3                599
+  fogo de palha (90%->60%)          44%         51%        0%      15%                       27.6                537
+
+B*) Escada híbrida + diploma acelerado
+  disciplina                 ≥8k até 25 ≥18k até 28 diplomata jubilado  idade cargo top (mediana) renda acum. R$ mil
+  50% (fase ruim)                   30%         41%        0%       0%            —  (<50% chega)                382
+  65% (hoje)                        37%         61%        0%       0%                       27.4                533
+  75%                               44%         69%        0%       0%                       27.2                593
+  85%                               48%         77%        0%       0%                       27.1                640
+  95% (máquina)                     52%         82%        0%       0%                       26.9                687
+  65%->85% em 1 ano                 44%         76%        0%       0%                       27.1                615
+  fogo de palha (90%->60%)          40%         54%        0%       0%                       27.5                531
+
+C) Direto no nível superior (sem médio)
+  disciplina                 ≥8k até 25 ≥18k até 28 diplomata jubilado  idade cargo top (mediana) renda acum. R$ mil
+  50% (fase ruim)                    5%         61%        0%      20%                       27.4                247
+  65% (hoje)                         8%         79%        0%      12%                       27.0                443
+  75%                               10%         84%        0%       7%                       26.8                514
+  85%                               12%         87%        0%       2%                       26.6                560
+  95% (máquina)                     15%         90%        0%       2%                       26.5                594
+  65%->85% em 1 ano                 11%         87%        0%       7%                       26.7                538
+  fogo de palha (90%->60%)           8%         77%        0%      15%                       27.1                417
+
+D) CACD puro desde 2027
+  disciplina                 ≥8k até 25 ≥18k até 28 diplomata jubilado  idade cargo top (mediana) renda acum. R$ mil
+  50% (fase ruim)                    1%          4%        4%      27%            —  (<50% chega)                175
+  65% (hoje)                         1%         10%       10%      20%            —  (<50% chega)                175
+  75%                                1%         14%       14%      15%            —  (<50% chega)                175
+  85%                                1%         20%       20%      10%            —  (<50% chega)                175
+  95% (máquina)                      1%         25%       25%       5%            —  (<50% chega)                175
+  65%->85% em 1 ano                  1%         18%       18%      16%            —  (<50% chega)                175
+  fogo de palha (90%->60%)           1%          8%        8%      23%            —  (<50% chega)                175
+

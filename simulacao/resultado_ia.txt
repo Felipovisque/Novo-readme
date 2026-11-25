@@ -1,0 +1,15 @@
+=== 1. IA PARA ESTUDAR (escada integral I1) ===
+  Uso da IA                                                  adesão ≥8k até 25 ≥18k aos 28
+  Sem IA                                                        65%        48%         60%
+  Sem IA                                                        85%        51%         78%
+  IA usada ERRADO (lê resumo em vez de fazer questão)           65%        46%         53%
+  IA usada ERRADO (lê resumo em vez de fazer questão)           85%        50%         71%
+  IA bem usada (tutor, questões, correção de redação)           65%        51%         73%
+  IA bem usada (tutor, questões, correção de redação)           85%        56%         84%
+  IA muito bem usada + método (revisão espaçada, simulados)     65%        52%         78%
+  IA muito bem usada + método (revisão espaçada, simulados)     85%        57%         86%
+
+=== 2. IA PARA GANHAR DINHEIRO ===
+  Escada + IA no estudo, sem negócio:                 ≥8k até 25 50%  ≥18k aos 28 73%
+  Escada + negócio com IA 5h/sem desde já:            ≥8k até 25 48%  ≥18k aos 28 50%  | negócio aos 28: mediana R$ 253, ≥R$1,5 mil 15%
+  Negócio com IA NO LUGAR do concurso (35h/sem):      renda aos 28: mediana R$ 1525, ≥R$8 mil 13%, ≥R$18 mil 5%
